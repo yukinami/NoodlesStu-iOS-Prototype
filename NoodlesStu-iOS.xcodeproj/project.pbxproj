@@ -14,7 +14,7 @@
 		E632CDD11BB9249E006B710D /* NOSRecruitment.m in Sources */ = {isa = PBXBuildFile; fileRef = E632CDCD1BB9249E006B710D /* NOSRecruitment.m */; settings = {ASSET_TAGS = (); }; };
 		E632CDD71BB945FE006B710D /* NOSModelContants.m in Sources */ = {isa = PBXBuildFile; fileRef = E632CDD61BB945FE006B710D /* NOSModelContants.m */; settings = {ASSET_TAGS = (); }; };
 		E637C0611BB00371008E0335 /* recruitment.json in Resources */ = {isa = PBXBuildFile; fileRef = E637C0601BB00371008E0335 /* recruitment.json */; };
-		E65114241BB0FCFB00BEDD63 /* RecruitmentMappingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E65114231BB0FCFB00BEDD63 /* RecruitmentMappingTest.m */; };
+		E65114241BB0FCFB00BEDD63 /* RecruitmentTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E65114231BB0FCFB00BEDD63 /* RecruitmentTest.m */; };
 		E65114281BB11D9400BEDD63 /* NOSRecruitmentModelView.m in Sources */ = {isa = PBXBuildFile; fileRef = E65114271BB11D9400BEDD63 /* NOSRecruitmentModelView.m */; };
 		E65114301BB2428100BEDD63 /* NOSConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = E651142F1BB2428100BEDD63 /* NOSConfig.plist */; };
 		E65114331BB2453700BEDD63 /* NOSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E65114321BB2453700BEDD63 /* NOSConfig.m */; };
@@ -63,7 +63,7 @@
 		E632CDD51BB945AB006B710D /* NOSModelContants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSModelContants.h; path = Model/NOSModelContants.h; sourceTree = "<group>"; };
 		E632CDD61BB945FE006B710D /* NOSModelContants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSModelContants.m; path = Model/NOSModelContants.m; sourceTree = "<group>"; };
 		E637C0601BB00371008E0335 /* recruitment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recruitment.json; path = Fixtures/recruitment.json; sourceTree = "<group>"; };
-		E65114231BB0FCFB00BEDD63 /* RecruitmentMappingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecruitmentMappingTest.m; sourceTree = "<group>"; };
+		E65114231BB0FCFB00BEDD63 /* RecruitmentTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecruitmentTest.m; sourceTree = "<group>"; };
 		E65114261BB11D9400BEDD63 /* NOSRecruitmentModelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSRecruitmentModelView.h; path = ModelView/NOSRecruitmentModelView.h; sourceTree = "<group>"; };
 		E65114271BB11D9400BEDD63 /* NOSRecruitmentModelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSRecruitmentModelView.m; path = ModelView/NOSRecruitmentModelView.m; sourceTree = "<group>"; };
 		E651142F1BB2428100BEDD63 /* NOSConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NOSConfig.plist; sourceTree = "<group>"; };
@@ -155,7 +155,7 @@
 		E637C06B1BB0FBAC008E0335 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E65114231BB0FCFB00BEDD63 /* RecruitmentMappingTest.m */,
+				E65114231BB0FCFB00BEDD63 /* RecruitmentTest.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -473,7 +473,7 @@
 				E65114351BB24B4600BEDD63 /* NOSConfigTest.m in Sources */,
 				E68166C01BAFFC3B006E7CC7 /* NoodlesStu_iOSTests.m in Sources */,
 				E65943EB1BB2D516005C0A53 /* NOSRecruitmentModelViewTest.m in Sources */,
-				E65114241BB0FCFB00BEDD63 /* RecruitmentMappingTest.m in Sources */,
+				E65114241BB0FCFB00BEDD63 /* RecruitmentTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
