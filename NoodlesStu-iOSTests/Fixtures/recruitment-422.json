@@ -1,0 +1,8 @@
+{
+    "timestamp": "2015-09-25T08:36:34Z",
+    "status": 422,
+    "error": "Internal Server Error",
+    "exception": "org.springframework.beans.NotReadablePropertyException",
+    "message": "Invalid property end",
+    "path": "/recruitment_info"
+}
