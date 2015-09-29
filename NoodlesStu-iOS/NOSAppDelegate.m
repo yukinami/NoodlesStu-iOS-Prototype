@@ -6,22 +6,69 @@
 //  Copyright (c) 2015年 HithinkSoft. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "NOSAppDelegate.h"
+
+#import <RestKit/RestKit.h>
 #import "DetailViewController.h"
 #import "MasterViewController.h"
+#import "NOSConfig.h"
 
-@interface AppDelegate ()
+
+@interface NOSAppDelegate ()
+
+/**
+ *  configure RKObjectManger of Restkit
+ */
+- (void) configRKObjectManager;
 
 @end
 
-@implementation AppDelegate
+@implementation NOSAppDelegate
+
+- (void) configRKObjectManager {
+    NSError *error = nil;
+    NSURL *modelURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"NoodlesStu_iOS" ofType:@"momd"]];
+    // NOTE: Due to an iOS 5 bug, the managed object model returned is immutable.
+    NSManagedObjectModel *managedObjectModel = [[[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL] mutableCopy];
+    RKManagedObjectStore *managedObjectStore = [[RKManagedObjectStore alloc] initWithManagedObjectModel:managedObjectModel];
+    
+    // Initialize the Core Data stack
+    [managedObjectStore createPersistentStoreCoordinator];
+    
+    NSPersistentStore __unused *persistentStore = [managedObjectStore addInMemoryPersistentStore:&error];
+    NSAssert(persistentStore, @"Failed to add persistent store: %@", error);
+    
+    [managedObjectStore createManagedObjectContexts];
+    
+    // Set the default store shared instance
+    [RKManagedObjectStore setDefaultStore:managedObjectStore];
+    
+    
+    // Configure the object manager
+    RKObjectManager *objectManager = [RKObjectManager managerWithBaseURL:[NSURL URLWithString:[[NOSConfig sharedConfig] APIBaseURL]]];
+    objectManager.managedObjectStore = managedObjectStore;
+    
+    [RKObjectManager setSharedManager:objectManager];
+    
+    // Configure Entity Mapping
+    
+}
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = [DetailViewController new];
+    [self.window makeKeyAndVisible];
+    
+    /*
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
     MasterViewController *controller = (MasterViewController *)navigationController.topViewController;
     controller.managedObjectContext = self.managedObjectContext;
+    */
+    
     return YES;
 }
 
@@ -46,9 +93,9 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     // Saves changes in the application's managed object context before the application terminates.
-    [self saveContext];
+    // [self saveContext];
 }
-
+/*
 #pragma mark - Core Data stack
 
 @synthesize managedObjectContext = _managedObjectContext;
@@ -128,5 +175,5 @@
         }
     }
 }
-
+*/
 @end
