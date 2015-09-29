@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220A0599494D044DBC727765 /* libPods-NoodlesStu-iOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B71CF07321352659C01E05A4 /* libPods-NoodlesStu-iOSTests.a */; };
+		E632CDCE1BB9249E006B710D /* NOSCollege+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E632CDC71BB9249E006B710D /* NOSCollege+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		E632CDCF1BB9249E006B710D /* NOSCollege.m in Sources */ = {isa = PBXBuildFile; fileRef = E632CDC91BB9249E006B710D /* NOSCollege.m */; settings = {ASSET_TAGS = (); }; };
+		E632CDD01BB9249E006B710D /* NOSRecruitment+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E632CDCB1BB9249E006B710D /* NOSRecruitment+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		E632CDD11BB9249E006B710D /* NOSRecruitment.m in Sources */ = {isa = PBXBuildFile; fileRef = E632CDCD1BB9249E006B710D /* NOSRecruitment.m */; settings = {ASSET_TAGS = (); }; };
+		E632CDD71BB945FE006B710D /* NOSModelContants.m in Sources */ = {isa = PBXBuildFile; fileRef = E632CDD61BB945FE006B710D /* NOSModelContants.m */; settings = {ASSET_TAGS = (); }; };
+		E637C0611BB00371008E0335 /* recruitment.json in Resources */ = {isa = PBXBuildFile; fileRef = E637C0601BB00371008E0335 /* recruitment.json */; };
+		E65114241BB0FCFB00BEDD63 /* RecruitmentMappingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E65114231BB0FCFB00BEDD63 /* RecruitmentMappingTest.m */; };
+		E65114281BB11D9400BEDD63 /* NOSRecruitmentModelView.m in Sources */ = {isa = PBXBuildFile; fileRef = E65114271BB11D9400BEDD63 /* NOSRecruitmentModelView.m */; };
+		E65114301BB2428100BEDD63 /* NOSConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = E651142F1BB2428100BEDD63 /* NOSConfig.plist */; };
+		E65114331BB2453700BEDD63 /* NOSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E65114321BB2453700BEDD63 /* NOSConfig.m */; };
+		E65114351BB24B4600BEDD63 /* NOSConfigTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E65114341BB24B4600BEDD63 /* NOSConfigTest.m */; };
+		E65943EB1BB2D516005C0A53 /* NOSRecruitmentModelViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E65943EA1BB2D516005C0A53 /* NOSRecruitmentModelViewTest.m */; settings = {ASSET_TAGS = (); }; };
 		E68166A01BAFFC3B006E7CC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E681669F1BAFFC3B006E7CC7 /* main.m */; };
-		E68166A31BAFFC3B006E7CC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E68166A21BAFFC3B006E7CC7 /* AppDelegate.m */; };
+		E68166A31BAFFC3B006E7CC7 /* NOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E68166A21BAFFC3B006E7CC7 /* NOSAppDelegate.m */; };
 		E68166A61BAFFC3B006E7CC7 /* NoodlesStu_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E68166A41BAFFC3B006E7CC7 /* NoodlesStu_iOS.xcdatamodeld */; };
-		E68166A91BAFFC3B006E7CC7 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68166A81BAFFC3B006E7CC7 /* MasterViewController.m */; };
-		E68166AC1BAFFC3B006E7CC7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E68166AB1BAFFC3B006E7CC7 /* DetailViewController.m */; };
 		E68166AF1BAFFC3B006E7CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68166AD1BAFFC3B006E7CC7 /* Main.storyboard */; };
 		E68166B11BAFFC3B006E7CC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68166B01BAFFC3B006E7CC7 /* Images.xcassets */; };
 		E68166B41BAFFC3B006E7CC7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E68166B21BAFFC3B006E7CC7 /* LaunchScreen.xib */; };
 		E68166C01BAFFC3B006E7CC7 /* NoodlesStu_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E68166BF1BAFFC3B006E7CC7 /* NoodlesStu_iOSTests.m */; };
+		E690A3E81BB282C200637622 /* recruitments.json in Resources */ = {isa = PBXBuildFile; fileRef = E690A3E71BB282C200637622 /* recruitments.json */; };
+		E6C38C1B1BB3852300A50577 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C38C181BB3852300A50577 /* DetailViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E6C38C1C1BB3852300A50577 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C38C1A1BB3852300A50577 /* MasterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E6FA516B1BB549F30085C620 /* NOSErrorMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FA516A1BB549F30085C620 /* NOSErrorMessage.m */; settings = {ASSET_TAGS = (); }; };
+		E6FA516D1BB54E130085C620 /* recruitment-422.json in Resources */ = {isa = PBXBuildFile; fileRef = E6FA516C1BB54E130085C620 /* recruitment-422.json */; settings = {ASSET_TAGS = (); }; };
+		E73039BC3A24D51A7085A263 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA54DE155CD1374F33298745 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,22 +46,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2540E097A6CADE871DFDD2D5 /* Pods-NoodlesStu-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoodlesStu-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoodlesStu-iOSTests/Pods-NoodlesStu-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3C40E75FEAF2DFD7B1C8943 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B71CF07321352659C01E05A4 /* libPods-NoodlesStu-iOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NoodlesStu-iOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB766F635BD1649AA805ED90 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D649449541FCBC62E0D14251 /* Pods-NoodlesStu-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoodlesStu-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoodlesStu-iOSTests/Pods-NoodlesStu-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		E632CDC61BB9249E006B710D /* NOSCollege+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NOSCollege+CoreDataProperties.h"; path = "Model/NOSCollege+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E632CDC71BB9249E006B710D /* NOSCollege+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NOSCollege+CoreDataProperties.m"; path = "Model/NOSCollege+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E632CDC81BB9249E006B710D /* NOSCollege.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSCollege.h; path = Model/NOSCollege.h; sourceTree = "<group>"; };
+		E632CDC91BB9249E006B710D /* NOSCollege.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSCollege.m; path = Model/NOSCollege.m; sourceTree = "<group>"; };
+		E632CDCA1BB9249E006B710D /* NOSRecruitment+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NOSRecruitment+CoreDataProperties.h"; path = "Model/NOSRecruitment+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E632CDCB1BB9249E006B710D /* NOSRecruitment+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NOSRecruitment+CoreDataProperties.m"; path = "Model/NOSRecruitment+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E632CDCC1BB9249E006B710D /* NOSRecruitment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSRecruitment.h; path = Model/NOSRecruitment.h; sourceTree = "<group>"; };
+		E632CDCD1BB9249E006B710D /* NOSRecruitment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSRecruitment.m; path = Model/NOSRecruitment.m; sourceTree = "<group>"; };
+		E632CDD41BB92B45006B710D /* NOSRKEntityDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSRKEntityDelegate.h; path = Core/NOSRKEntityDelegate.h; sourceTree = "<group>"; };
+		E632CDD51BB945AB006B710D /* NOSModelContants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSModelContants.h; path = Model/NOSModelContants.h; sourceTree = "<group>"; };
+		E632CDD61BB945FE006B710D /* NOSModelContants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSModelContants.m; path = Model/NOSModelContants.m; sourceTree = "<group>"; };
+		E637C0601BB00371008E0335 /* recruitment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recruitment.json; path = Fixtures/recruitment.json; sourceTree = "<group>"; };
+		E65114231BB0FCFB00BEDD63 /* RecruitmentMappingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecruitmentMappingTest.m; sourceTree = "<group>"; };
+		E65114261BB11D9400BEDD63 /* NOSRecruitmentModelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSRecruitmentModelView.h; path = ModelView/NOSRecruitmentModelView.h; sourceTree = "<group>"; };
+		E65114271BB11D9400BEDD63 /* NOSRecruitmentModelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSRecruitmentModelView.m; path = ModelView/NOSRecruitmentModelView.m; sourceTree = "<group>"; };
+		E651142F1BB2428100BEDD63 /* NOSConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NOSConfig.plist; sourceTree = "<group>"; };
+		E65114311BB2453700BEDD63 /* NOSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOSConfig.h; sourceTree = "<group>"; };
+		E65114321BB2453700BEDD63 /* NOSConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOSConfig.m; sourceTree = "<group>"; };
+		E65114341BB24B4600BEDD63 /* NOSConfigTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOSConfigTest.m; sourceTree = "<group>"; };
+		E65943EA1BB2D516005C0A53 /* NOSRecruitmentModelViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSRecruitmentModelViewTest.m; path = ModelView/NOSRecruitmentModelViewTest.m; sourceTree = "<group>"; };
 		E681669A1BAFFC3B006E7CC7 /* NoodlesStu-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NoodlesStu-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E681669E1BAFFC3B006E7CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E681669F1BAFFC3B006E7CC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E68166A11BAFFC3B006E7CC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E68166A21BAFFC3B006E7CC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E68166A11BAFFC3B006E7CC7 /* NOSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NOSAppDelegate.h; sourceTree = "<group>"; };
+		E68166A21BAFFC3B006E7CC7 /* NOSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NOSAppDelegate.m; sourceTree = "<group>"; };
 		E68166A51BAFFC3B006E7CC7 /* NoodlesStu_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoodlesStu_iOS.xcdatamodel; sourceTree = "<group>"; };
-		E68166A71BAFFC3B006E7CC7 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		E68166A81BAFFC3B006E7CC7 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		E68166AA1BAFFC3B006E7CC7 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		E68166AB1BAFFC3B006E7CC7 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		E68166AE1BAFFC3B006E7CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E68166B01BAFFC3B006E7CC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E68166B31BAFFC3B006E7CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E68166B91BAFFC3B006E7CC7 /* NoodlesStu-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NoodlesStu-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68166BE1BAFFC3B006E7CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E68166BF1BAFFC3B006E7CC7 /* NoodlesStu_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoodlesStu_iOSTests.m; sourceTree = "<group>"; };
+		E690A3E71BB282C200637622 /* recruitments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recruitments.json; path = Fixtures/recruitments.json; sourceTree = "<group>"; };
+		E6C38C171BB3852300A50577 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ViewController/DetailViewController.h; sourceTree = "<group>"; };
+		E6C38C181BB3852300A50577 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ViewController/DetailViewController.m; sourceTree = "<group>"; };
+		E6C38C191BB3852300A50577 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = ViewController/MasterViewController.h; sourceTree = "<group>"; };
+		E6C38C1A1BB3852300A50577 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = ViewController/MasterViewController.m; sourceTree = "<group>"; };
+		E6FA51691BB549F30085C620 /* NOSErrorMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSErrorMessage.h; path = Model/NOSErrorMessage.h; sourceTree = "<group>"; };
+		E6FA516A1BB549F30085C620 /* NOSErrorMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSErrorMessage.m; path = Model/NOSErrorMessage.m; sourceTree = "<group>"; };
+		E6FA516C1BB54E130085C620 /* recruitment-422.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "recruitment-422.json"; path = "Fixtures/recruitment-422.json"; sourceTree = "<group>"; };
+		EA54DE155CD1374F33298745 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E73039BC3A24D51A7085A263 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,18 +107,84 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220A0599494D044DBC727765 /* libPods-NoodlesStu-iOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E2D03BD3B24C076D1EF9F3BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA54DE155CD1374F33298745 /* libPods.a */,
+				B71CF07321352659C01E05A4 /* libPods-NoodlesStu-iOSTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E637C05D1BB002DB008E0335 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				E637C0601BB00371008E0335 /* recruitment.json */,
+				E690A3E71BB282C200637622 /* recruitments.json */,
+				E6FA516C1BB54E130085C620 /* recruitment-422.json */,
+			);
+			name = Fixtures;
+			sourceTree = "<group>";
+		};
+		E637C0671BB0FB0E008E0335 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6FA51691BB549F30085C620 /* NOSErrorMessage.h */,
+				E6FA516A1BB549F30085C620 /* NOSErrorMessage.m */,
+				E632CDC61BB9249E006B710D /* NOSCollege+CoreDataProperties.h */,
+				E632CDC71BB9249E006B710D /* NOSCollege+CoreDataProperties.m */,
+				E632CDC81BB9249E006B710D /* NOSCollege.h */,
+				E632CDC91BB9249E006B710D /* NOSCollege.m */,
+				E632CDCA1BB9249E006B710D /* NOSRecruitment+CoreDataProperties.h */,
+				E632CDCB1BB9249E006B710D /* NOSRecruitment+CoreDataProperties.m */,
+				E632CDCC1BB9249E006B710D /* NOSRecruitment.h */,
+				E632CDCD1BB9249E006B710D /* NOSRecruitment.m */,
+				E632CDD51BB945AB006B710D /* NOSModelContants.h */,
+				E632CDD61BB945FE006B710D /* NOSModelContants.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E637C06B1BB0FBAC008E0335 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E65114231BB0FCFB00BEDD63 /* RecruitmentMappingTest.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E65114251BB11D4300BEDD63 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				E65114261BB11D9400BEDD63 /* NOSRecruitmentModelView.h */,
+				E65114271BB11D9400BEDD63 /* NOSRecruitmentModelView.m */,
+			);
+			name = ModelView;
+			sourceTree = "<group>";
+		};
+		E65943E81BB2D4C1005C0A53 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				E65943EA1BB2D516005C0A53 /* NOSRecruitmentModelViewTest.m */,
+			);
+			name = ModelView;
+			sourceTree = "<group>";
+		};
 		E68166911BAFFC3A006E7CC7 = {
 			isa = PBXGroup;
 			children = (
 				E681669C1BAFFC3B006E7CC7 /* NoodlesStu-iOS */,
 				E68166BC1BAFFC3B006E7CC7 /* NoodlesStu-iOSTests */,
 				E681669B1BAFFC3B006E7CC7 /* Products */,
+				E8B8A1782D174178F82979C1 /* Pods */,
+				E2D03BD3B24C076D1EF9F3BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,17 +200,19 @@
 		E681669C1BAFFC3B006E7CC7 /* NoodlesStu-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E68166A11BAFFC3B006E7CC7 /* AppDelegate.h */,
-				E68166A21BAFFC3B006E7CC7 /* AppDelegate.m */,
-				E68166A71BAFFC3B006E7CC7 /* MasterViewController.h */,
-				E68166A81BAFFC3B006E7CC7 /* MasterViewController.m */,
-				E68166AA1BAFFC3B006E7CC7 /* DetailViewController.h */,
-				E68166AB1BAFFC3B006E7CC7 /* DetailViewController.m */,
+				E6FA51681BB540930085C620 /* Core */,
+				E6C38C161BB384DB00A50577 /* ViewController */,
+				E65114251BB11D4300BEDD63 /* ModelView */,
+				E637C0671BB0FB0E008E0335 /* Model */,
+				E68166A11BAFFC3B006E7CC7 /* NOSAppDelegate.h */,
+				E68166A21BAFFC3B006E7CC7 /* NOSAppDelegate.m */,
 				E68166AD1BAFFC3B006E7CC7 /* Main.storyboard */,
 				E68166B01BAFFC3B006E7CC7 /* Images.xcassets */,
 				E68166B21BAFFC3B006E7CC7 /* LaunchScreen.xib */,
 				E68166A41BAFFC3B006E7CC7 /* NoodlesStu_iOS.xcdatamodeld */,
 				E681669D1BAFFC3B006E7CC7 /* Supporting Files */,
+				E65114311BB2453700BEDD63 /* NOSConfig.h */,
+				E65114321BB2453700BEDD63 /* NOSConfig.m */,
 			);
 			path = "NoodlesStu-iOS";
 			sourceTree = "<group>";
@@ -106,6 +222,7 @@
 			children = (
 				E681669E1BAFFC3B006E7CC7 /* Info.plist */,
 				E681669F1BAFFC3B006E7CC7 /* main.m */,
+				E651142F1BB2428100BEDD63 /* NOSConfig.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -113,8 +230,12 @@
 		E68166BC1BAFFC3B006E7CC7 /* NoodlesStu-iOSTests */ = {
 			isa = PBXGroup;
 			children = (
+				E65943E81BB2D4C1005C0A53 /* ModelView */,
+				E637C06B1BB0FBAC008E0335 /* Model */,
+				E637C05D1BB002DB008E0335 /* Fixtures */,
 				E68166BF1BAFFC3B006E7CC7 /* NoodlesStu_iOSTests.m */,
 				E68166BD1BAFFC3B006E7CC7 /* Supporting Files */,
+				E65114341BB24B4600BEDD63 /* NOSConfigTest.m */,
 			);
 			path = "NoodlesStu-iOSTests";
 			sourceTree = "<group>";
@@ -127,6 +248,36 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E6C38C161BB384DB00A50577 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E6C38C171BB3852300A50577 /* DetailViewController.h */,
+				E6C38C181BB3852300A50577 /* DetailViewController.m */,
+				E6C38C191BB3852300A50577 /* MasterViewController.h */,
+				E6C38C1A1BB3852300A50577 /* MasterViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		E6FA51681BB540930085C620 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E632CDD41BB92B45006B710D /* NOSRKEntityDelegate.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		E8B8A1782D174178F82979C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3C40E75FEAF2DFD7B1C8943 /* Pods.debug.xcconfig */,
+				BB766F635BD1649AA805ED90 /* Pods.release.xcconfig */,
+				2540E097A6CADE871DFDD2D5 /* Pods-NoodlesStu-iOSTests.debug.xcconfig */,
+				D649449541FCBC62E0D14251 /* Pods-NoodlesStu-iOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +285,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E68166C31BAFFC3B006E7CC7 /* Build configuration list for PBXNativeTarget "NoodlesStu-iOS" */;
 			buildPhases = (
+				BDD8DAF1BEADBB8CBA3450A0 /* Check Pods Manifest.lock */,
 				E68166961BAFFC3B006E7CC7 /* Sources */,
 				E68166971BAFFC3B006E7CC7 /* Frameworks */,
 				E68166981BAFFC3B006E7CC7 /* Resources */,
+				3CB334652B89E83726B68F85 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,9 +304,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E68166C61BAFFC3B006E7CC7 /* Build configuration list for PBXNativeTarget "NoodlesStu-iOSTests" */;
 			buildPhases = (
+				CD86B98A52BC5613C051E954 /* Check Pods Manifest.lock */,
 				E68166B51BAFFC3B006E7CC7 /* Sources */,
 				E68166B61BAFFC3B006E7CC7 /* Frameworks */,
 				E68166B71BAFFC3B006E7CC7 /* Resources */,
+				E1D82FF2173A589B4CDB6DEB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -171,11 +326,12 @@
 		E68166921BAFFC3A006E7CC7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = HithinkSoft;
 				TargetAttributes = {
 					E68166991BAFFC3B006E7CC7 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 9YFCRCK3VR;
 					};
 					E68166B81BAFFC3B006E7CC7 = {
 						CreatedOnToolsVersion = 6.4;
@@ -210,6 +366,7 @@
 				E68166AF1BAFFC3B006E7CC7 /* Main.storyboard in Resources */,
 				E68166B41BAFFC3B006E7CC7 /* LaunchScreen.xib in Resources */,
 				E68166B11BAFFC3B006E7CC7 /* Images.xcassets in Resources */,
+				E65114301BB2428100BEDD63 /* NOSConfig.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,21 +374,95 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6FA516D1BB54E130085C620 /* recruitment-422.json in Resources */,
+				E690A3E81BB282C200637622 /* recruitments.json in Resources */,
+				E637C0611BB00371008E0335 /* recruitment.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CB334652B89E83726B68F85 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDD8DAF1BEADBB8CBA3450A0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD86B98A52BC5613C051E954 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1D82FF2173A589B4CDB6DEB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoodlesStu-iOSTests/Pods-NoodlesStu-iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E68166961BAFFC3B006E7CC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E68166AC1BAFFC3B006E7CC7 /* DetailViewController.m in Sources */,
-				E68166A91BAFFC3B006E7CC7 /* MasterViewController.m in Sources */,
+				E6FA516B1BB549F30085C620 /* NOSErrorMessage.m in Sources */,
 				E68166A61BAFFC3B006E7CC7 /* NoodlesStu_iOS.xcdatamodeld in Sources */,
-				E68166A31BAFFC3B006E7CC7 /* AppDelegate.m in Sources */,
+				E68166A31BAFFC3B006E7CC7 /* NOSAppDelegate.m in Sources */,
+				E632CDCE1BB9249E006B710D /* NOSCollege+CoreDataProperties.m in Sources */,
+				E65114331BB2453700BEDD63 /* NOSConfig.m in Sources */,
+				E632CDD71BB945FE006B710D /* NOSModelContants.m in Sources */,
+				E6C38C1C1BB3852300A50577 /* MasterViewController.m in Sources */,
+				E65114281BB11D9400BEDD63 /* NOSRecruitmentModelView.m in Sources */,
 				E68166A01BAFFC3B006E7CC7 /* main.m in Sources */,
+				E632CDCF1BB9249E006B710D /* NOSCollege.m in Sources */,
+				E632CDD11BB9249E006B710D /* NOSRecruitment.m in Sources */,
+				E632CDD01BB9249E006B710D /* NOSRecruitment+CoreDataProperties.m in Sources */,
+				E6C38C1B1BB3852300A50577 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +470,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E65114351BB24B4600BEDD63 /* NOSConfigTest.m in Sources */,
 				E68166C01BAFFC3B006E7CC7 /* NoodlesStu_iOSTests.m in Sources */,
+				E65943EB1BB2D516005C0A53 /* NOSRecruitmentModelViewTest.m in Sources */,
+				E65114241BB0FCFB00BEDD63 /* RecruitmentMappingTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +528,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -355,38 +590,47 @@
 		};
 		E68166C41BAFFC3B006E7CC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C40E75FEAF2DFD7B1C8943 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "NoodlesStu-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hithink.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		E68166C51BAFFC3B006E7CC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB766F635BD1649AA805ED90 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "NoodlesStu-iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hithink.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 		E68166C71BAFFC3B006E7CC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2540E097A6CADE871DFDD2D5 /* Pods-NoodlesStu-iOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "NoodlesStu-iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hithink.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoodlesStu-iOS.app/NoodlesStu-iOS";
 			};
@@ -394,14 +638,13 @@
 		};
 		E68166C81BAFFC3B006E7CC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D649449541FCBC62E0D14251 /* Pods-NoodlesStu-iOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "NoodlesStu-iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hithink.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoodlesStu-iOS.app/NoodlesStu-iOS";
 			};
@@ -426,6 +669,7 @@
 				E68166C51BAFFC3B006E7CC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E68166C61BAFFC3B006E7CC7 /* Build configuration list for PBXNativeTarget "NoodlesStu-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +678,7 @@
 				E68166C81BAFFC3B006E7CC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

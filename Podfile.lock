@@ -1,0 +1,72 @@
+PODS:
+  - AFNetworking (1.3.4)
+  - Expecta (1.0.3)
+  - ISO8601DateFormatterValueTransformer (0.6.1):
+    - RKValueTransformers (~> 1.1.0)
+  - Masonry (HEAD based on 0.6.3)
+  - OCHamcrest (4.2.0)
+  - OCMockito (1.4.0):
+    - OCHamcrest (~> 4.0)
+  - OHHTTPStubs (4.3.0):
+    - OHHTTPStubs/Default (= 4.3.0)
+  - OHHTTPStubs/Core (4.3.0)
+  - OHHTTPStubs/Default (4.3.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (4.3.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (4.3.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (4.3.0)
+  - RestKit (0.24.1):
+    - RestKit/Core (= 0.24.1)
+  - RestKit/Core (0.24.1):
+    - RestKit/CoreData
+    - RestKit/Network
+    - RestKit/ObjectMapping
+  - RestKit/CoreData (0.24.1):
+    - RestKit/ObjectMapping
+  - RestKit/Network (0.24.1):
+    - AFNetworking (~> 1.3.0)
+    - RestKit/ObjectMapping
+    - RestKit/Support
+    - SOCKit
+  - RestKit/ObjectMapping (0.24.1):
+    - ISO8601DateFormatterValueTransformer (~> 0.6.0)
+    - RestKit/Support
+    - RKValueTransformers (~> 1.1.0)
+  - RestKit/Support (0.24.1):
+    - TransitionKit (~> 2.1.0)
+  - RestKit/Testing (0.24.1):
+    - RestKit/Network
+  - RKValueTransformers (1.1.2)
+  - SOCKit (1.1)
+  - Specta (1.0.3)
+  - TransitionKit (2.1.1)
+
+DEPENDENCIES:
+  - Expecta (~> 1.0.0)
+  - Masonry (HEAD)
+  - OCMockito (~> 1.0)
+  - OHHTTPStubs
+  - RestKit (~> 0.24.0)
+  - RestKit/Testing (~> 0.24.0)
+  - Specta (~> 1.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: cf8e418e16f0c9c7e5c3150d019a3c679d015018
+  Expecta: 9d1bff6c8b0eeee73a166a2ee898892478927a15
+  ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+  OCHamcrest: c14c0b3f4c4e99363e5b87d97bae38c4438b6d5d
+  OCMockito: 4981140c9a9ec06c31af40f636e3c0f25f27e6b2
+  OHHTTPStubs: 0aec5755528693a165bd616cb79f69387de306a8
+  RestKit: 1987b5efef289c6b27bd980714d6ca48d3871b78
+  RKValueTransformers: 66ac5e4f077fdbe3496e792d89eeff4c3eb67701
+  SOCKit: c7376ac262bea9115b8f749358f762522a47d392
+  Specta: cf3e4188cf35375c3ee2cd03f8db8f1f4ef98234
+  TransitionKit: 3a14b6acc7cf2d1dd3e454e24dbad1cfab9a1ef1
+
+COCOAPODS: 0.38.2
