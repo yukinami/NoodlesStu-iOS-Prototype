@@ -1,7 +1,7 @@
 NooldesStu-iOS
 ===============
 
-This projet is a prototype and is an iOS application built for [591mian][591mian-home].
+This project is a prototype and is an iOS application built for [591mian][591mian-home].
 
 Coding style
 -------------
