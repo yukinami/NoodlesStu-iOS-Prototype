@@ -14,6 +14,13 @@
 		E632CDD11BB9249E006B710D /* NOSRecruitment.m in Sources */ = {isa = PBXBuildFile; fileRef = E632CDCD1BB9249E006B710D /* NOSRecruitment.m */; settings = {ASSET_TAGS = (); }; };
 		E632CDD71BB945FE006B710D /* NOSModelContants.m in Sources */ = {isa = PBXBuildFile; fileRef = E632CDD61BB945FE006B710D /* NOSModelContants.m */; settings = {ASSET_TAGS = (); }; };
 		E637C0611BB00371008E0335 /* recruitment.json in Resources */ = {isa = PBXBuildFile; fileRef = E637C0601BB00371008E0335 /* recruitment.json */; };
+		E63839001BD0934200B40AFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63838FC1BD0934200B40AFB /* LaunchScreen.xib */; settings = {ASSET_TAGS = (); }; };
+		E63839011BD0934200B40AFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63838FE1BD0934200B40AFB /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		E63839041BD093B900B40AFB /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63839021BD093B900B40AFB /* Discover.storyboard */; settings = {ASSET_TAGS = (); }; };
+		E638390A1BD0990500B40AFB /* NOSRecruitmentListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63839091BD0990500B40AFB /* NOSRecruitmentListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E63839101BD0C1B900B40AFB /* NOSRecruitmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E638390F1BD0C1B900B40AFB /* NOSRecruitmentCell.m */; settings = {ASSET_TAGS = (); }; };
+		E63839191BD0EE2D00B40AFB /* server.rb in Resources */ = {isa = PBXBuildFile; fileRef = E63839181BD0EE2D00B40AFB /* server.rb */; settings = {ASSET_TAGS = (); }; };
+		E638391B1BD0EE9000B40AFB /* recruitments.json in Resources */ = {isa = PBXBuildFile; fileRef = E638391A1BD0EE9000B40AFB /* recruitments.json */; settings = {ASSET_TAGS = (); }; };
 		E65114241BB0FCFB00BEDD63 /* RecruitmentTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E65114231BB0FCFB00BEDD63 /* RecruitmentTest.m */; };
 		E65114281BB11D9400BEDD63 /* NOSRecruitmentModelView.m in Sources */ = {isa = PBXBuildFile; fileRef = E65114271BB11D9400BEDD63 /* NOSRecruitmentModelView.m */; };
 		E65114351BB24B4600BEDD63 /* NOSConfigTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E65114341BB24B4600BEDD63 /* NOSConfigTest.m */; };
@@ -21,16 +28,16 @@
 		E68166A01BAFFC3B006E7CC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E681669F1BAFFC3B006E7CC7 /* main.m */; };
 		E68166A31BAFFC3B006E7CC7 /* NOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E68166A21BAFFC3B006E7CC7 /* NOSAppDelegate.m */; };
 		E68166A61BAFFC3B006E7CC7 /* NoodlesStu_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E68166A41BAFFC3B006E7CC7 /* NoodlesStu_iOS.xcdatamodeld */; };
-		E68166AF1BAFFC3B006E7CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E68166AD1BAFFC3B006E7CC7 /* Main.storyboard */; };
 		E68166C01BAFFC3B006E7CC7 /* NoodlesStu_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E68166BF1BAFFC3B006E7CC7 /* NoodlesStu_iOSTests.m */; };
 		E68F3C231BBBE47B007E3A9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E68F3C251BBBE47B007E3A9D /* InfoPlist.strings */; };
 		E68F3C2D1BBC15EA007E3A9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68F3C2C1BBC15EA007E3A9D /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
 		E68F3C311BBC176E007E3A9D /* NOSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E68F3C301BBC176E007E3A9D /* NOSConfig.m */; settings = {ASSET_TAGS = (); }; };
-		E68F3C381BBC2429007E3A9D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E68F3C361BBC2429007E3A9D /* LaunchScreen.xib */; settings = {ASSET_TAGS = (); }; };
 		E690A3E81BB282C200637622 /* recruitments.json in Resources */ = {isa = PBXBuildFile; fileRef = E690A3E71BB282C200637622 /* recruitments.json */; };
 		E6C38C1B1BB3852300A50577 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C38C181BB3852300A50577 /* DetailViewController.m */; settings = {ASSET_TAGS = (); }; };
 		E6C38C1C1BB3852300A50577 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C38C1A1BB3852300A50577 /* MasterViewController.m */; settings = {ASSET_TAGS = (); }; };
 		E6E0FDC71BC787850015D14B /* NOSConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6E0FDC61BC787850015D14B /* NOSConfig.plist */; settings = {ASSET_TAGS = (); }; };
+		E6F603851BD75B3000806314 /* UIColor+HEX.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F603841BD75B3000806314 /* UIColor+HEX.m */; settings = {ASSET_TAGS = (); }; };
+		E6F6038B1BD7602400806314 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6F603891BD7602400806314 /* Localizable.strings */; settings = {ASSET_TAGS = (); }; };
 		E6FA516B1BB549F30085C620 /* NOSErrorMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FA516A1BB549F30085C620 /* NOSErrorMessage.m */; settings = {ASSET_TAGS = (); }; };
 		E6FA516D1BB54E130085C620 /* recruitment-422.json in Resources */ = {isa = PBXBuildFile; fileRef = E6FA516C1BB54E130085C620 /* recruitment-422.json */; settings = {ASSET_TAGS = (); }; };
 		E73039BC3A24D51A7085A263 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA54DE155CD1374F33298745 /* libPods.a */; };
@@ -64,6 +71,15 @@
 		E632CDD51BB945AB006B710D /* NOSModelContants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSModelContants.h; path = Model/NOSModelContants.h; sourceTree = "<group>"; };
 		E632CDD61BB945FE006B710D /* NOSModelContants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSModelContants.m; path = Model/NOSModelContants.m; sourceTree = "<group>"; };
 		E637C0601BB00371008E0335 /* recruitment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recruitment.json; path = Fixtures/recruitment.json; sourceTree = "<group>"; };
+		E63838FD1BD0934200B40AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Storyboards & Localizations/Base.lproj/LaunchScreen.xib"; sourceTree = "<group>"; };
+		E63838FF1BD0934200B40AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Storyboards & Localizations/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		E63839031BD093B900B40AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Storyboards & Localizations/Base.lproj/Discover.storyboard"; sourceTree = "<group>"; };
+		E63839081BD0990500B40AFB /* NOSRecruitmentListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSRecruitmentListViewController.h; path = ViewController/Discover/NOSRecruitmentListViewController.h; sourceTree = "<group>"; };
+		E63839091BD0990500B40AFB /* NOSRecruitmentListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSRecruitmentListViewController.m; path = ViewController/Discover/NOSRecruitmentListViewController.m; sourceTree = "<group>"; };
+		E638390E1BD0C1B900B40AFB /* NOSRecruitmentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSRecruitmentCell.h; path = "View/Custom Table Cells/NOSRecruitmentCell.h"; sourceTree = "<group>"; };
+		E638390F1BD0C1B900B40AFB /* NOSRecruitmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSRecruitmentCell.m; path = "View/Custom Table Cells/NOSRecruitmentCell.m"; sourceTree = "<group>"; };
+		E63839181BD0EE2D00B40AFB /* server.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = server.rb; path = "Dummy Server/server.rb"; sourceTree = "<group>"; };
+		E638391A1BD0EE9000B40AFB /* recruitments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recruitments.json; path = "Dummy Server/Fixtures/recruitments.json"; sourceTree = "<group>"; };
 		E65114231BB0FCFB00BEDD63 /* RecruitmentTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecruitmentTest.m; sourceTree = "<group>"; };
 		E65114261BB11D9400BEDD63 /* NOSRecruitmentModelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSRecruitmentModelView.h; path = ModelView/NOSRecruitmentModelView.h; sourceTree = "<group>"; };
 		E65114271BB11D9400BEDD63 /* NOSRecruitmentModelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSRecruitmentModelView.m; path = ModelView/NOSRecruitmentModelView.m; sourceTree = "<group>"; };
@@ -75,7 +91,6 @@
 		E68166A11BAFFC3B006E7CC7 /* NOSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NOSAppDelegate.h; sourceTree = "<group>"; };
 		E68166A21BAFFC3B006E7CC7 /* NOSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NOSAppDelegate.m; sourceTree = "<group>"; };
 		E68166A51BAFFC3B006E7CC7 /* NoodlesStu_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoodlesStu_iOS.xcdatamodel; sourceTree = "<group>"; };
-		E68166AE1BAFFC3B006E7CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E68166B91BAFFC3B006E7CC7 /* NoodlesStu-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NoodlesStu-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E68166BE1BAFFC3B006E7CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E68166BF1BAFFC3B006E7CC7 /* NoodlesStu_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoodlesStu_iOSTests.m; sourceTree = "<group>"; };
@@ -83,13 +98,20 @@
 		E68F3C2C1BBC15EA007E3A9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Resouces/Images.xcassets; sourceTree = "<group>"; };
 		E68F3C2F1BBC176E007E3A9D /* NOSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSConfig.h; path = Conf/NOSConfig.h; sourceTree = "<group>"; };
 		E68F3C301BBC176E007E3A9D /* NOSConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSConfig.m; path = Conf/NOSConfig.m; sourceTree = "<group>"; };
-		E68F3C371BBC2429007E3A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E690A3E71BB282C200637622 /* recruitments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recruitments.json; path = Fixtures/recruitments.json; sourceTree = "<group>"; };
 		E6C38C171BB3852300A50577 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = ViewController/DetailViewController.h; sourceTree = "<group>"; };
 		E6C38C181BB3852300A50577 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = ViewController/DetailViewController.m; sourceTree = "<group>"; };
 		E6C38C191BB3852300A50577 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = ViewController/MasterViewController.h; sourceTree = "<group>"; };
 		E6C38C1A1BB3852300A50577 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = ViewController/MasterViewController.m; sourceTree = "<group>"; };
 		E6E0FDC61BC787850015D14B /* NOSConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = NOSConfig.plist; path = "Supporting Files/NOSConfig.plist"; sourceTree = "<group>"; };
+		E6F603751BD6198500806314 /* NoodlesStu-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NoodlesStu-Prefix.pch"; path = "Supporting Files/NoodlesStu-Prefix.pch"; sourceTree = "<group>"; };
+		E6F603791BD63DAB00806314 /* NOSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSConstants.h; path = Common/NOSConstants.h; sourceTree = "<group>"; };
+		E6F603831BD75B3000806314 /* UIColor+HEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HEX.h"; sourceTree = "<group>"; };
+		E6F603841BD75B3000806314 /* UIColor+HEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HEX.m"; sourceTree = "<group>"; };
+		E6F603861BD75F0600806314 /* NOSLocalizedMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSLocalizedMacros.h; path = "Storyboards & Localizations/NOSLocalizedMacros.h"; sourceTree = "<group>"; };
+		E6F603871BD75F2E00806314 /* NOSLocalizedCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSLocalizedCommon.h; path = "Storyboards & Localizations/NOSLocalizedCommon.h"; sourceTree = "<group>"; };
+		E6F603881BD75F5A00806314 /* NOSLocalizedDiscover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSLocalizedDiscover.h; path = "Storyboards & Localizations/NOSLocalizedDiscover.h"; sourceTree = "<group>"; };
+		E6F6038A1BD7602400806314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = "Storyboards & Localizations/Base.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		E6FA51691BB549F30085C620 /* NOSErrorMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSErrorMessage.h; path = Model/NOSErrorMessage.h; sourceTree = "<group>"; };
 		E6FA516A1BB549F30085C620 /* NOSErrorMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSErrorMessage.m; path = Model/NOSErrorMessage.m; sourceTree = "<group>"; };
 		E6FA516C1BB54E130085C620 /* recruitment-422.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "recruitment-422.json"; path = "Fixtures/recruitment-422.json"; sourceTree = "<group>"; };
@@ -162,6 +184,71 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		E63838FA1BD0921200B40AFB /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				E63839081BD0990500B40AFB /* NOSRecruitmentListViewController.h */,
+				E63839091BD0990500B40AFB /* NOSRecruitmentListViewController.m */,
+			);
+			name = Discover;
+			sourceTree = "<group>";
+		};
+		E63838FB1BD092BD00B40AFB /* Storyboards & Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				E63838FC1BD0934200B40AFB /* LaunchScreen.xib */,
+				E63838FE1BD0934200B40AFB /* Main.storyboard */,
+				E63839021BD093B900B40AFB /* Discover.storyboard */,
+				E6F603861BD75F0600806314 /* NOSLocalizedMacros.h */,
+				E6F603871BD75F2E00806314 /* NOSLocalizedCommon.h */,
+				E6F603881BD75F5A00806314 /* NOSLocalizedDiscover.h */,
+				E6F603891BD7602400806314 /* Localizable.strings */,
+			);
+			name = "Storyboards & Localizations";
+			sourceTree = "<group>";
+		};
+		E638390B1BD0993900B40AFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E638390C1BD099A800B40AFB /* Custom Table Cells */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E638390C1BD099A800B40AFB /* Custom Table Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E638390D1BD099BD00B40AFB /* Discover */,
+			);
+			name = "Custom Table Cells";
+			sourceTree = "<group>";
+		};
+		E638390D1BD099BD00B40AFB /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				E638390E1BD0C1B900B40AFB /* NOSRecruitmentCell.h */,
+				E638390F1BD0C1B900B40AFB /* NOSRecruitmentCell.m */,
+			);
+			name = Discover;
+			sourceTree = "<group>";
+		};
+		E63839171BD0ECAE00B40AFB /* Dummy Server */ = {
+			isa = PBXGroup;
+			children = (
+				E638391C1BD0EE9600B40AFB /* Fixtures */,
+				E63839181BD0EE2D00B40AFB /* server.rb */,
+			);
+			name = "Dummy Server";
+			sourceTree = "<group>";
+		};
+		E638391C1BD0EE9600B40AFB /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				E638391A1BD0EE9000B40AFB /* recruitments.json */,
+			);
+			name = Fixtures;
+			sourceTree = "<group>";
+		};
 		E65114251BB11D4300BEDD63 /* ModelView */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +269,7 @@
 		E68166911BAFFC3A006E7CC7 = {
 			isa = PBXGroup;
 			children = (
+				E63839171BD0ECAE00B40AFB /* Dummy Server */,
 				E681669C1BAFFC3B006E7CC7 /* NoodlesStu-iOS */,
 				E68166BC1BAFFC3B006E7CC7 /* NoodlesStu-iOSTests */,
 				E681669B1BAFFC3B006E7CC7 /* Products */,
@@ -202,16 +290,18 @@
 		E681669C1BAFFC3B006E7CC7 /* NoodlesStu-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				E6F6037A1BD6438100806314 /* Helper */,
+				E6F603761BD63D3000806314 /* Common */,
+				E63838FB1BD092BD00B40AFB /* Storyboards & Localizations */,
 				E68F3C2E1BBC1746007E3A9D /* Conf */,
 				E68F3C2B1BBC15DB007E3A9D /* Resources */,
 				E6FA51681BB540930085C620 /* Core */,
 				E6C38C161BB384DB00A50577 /* ViewController */,
 				E65114251BB11D4300BEDD63 /* ModelView */,
 				E637C0671BB0FB0E008E0335 /* Model */,
+				E638390B1BD0993900B40AFB /* View */,
 				E68166A11BAFFC3B006E7CC7 /* NOSAppDelegate.h */,
 				E68166A21BAFFC3B006E7CC7 /* NOSAppDelegate.m */,
-				E68166AD1BAFFC3B006E7CC7 /* Main.storyboard */,
-				E68F3C361BBC2429007E3A9D /* LaunchScreen.xib */,
 				E68166A41BAFFC3B006E7CC7 /* NoodlesStu_iOS.xcdatamodeld */,
 				E681669D1BAFFC3B006E7CC7 /* Supporting Files */,
 			);
@@ -225,6 +315,7 @@
 				E681669E1BAFFC3B006E7CC7 /* Info.plist */,
 				E681669F1BAFFC3B006E7CC7 /* main.m */,
 				E68F3C251BBBE47B007E3A9D /* InfoPlist.strings */,
+				E6F603751BD6198500806314 /* NoodlesStu-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -270,12 +361,55 @@
 		E6C38C161BB384DB00A50577 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				E63838FA1BD0921200B40AFB /* Discover */,
+				E6E0FDC81BC7A97E0015D14B /* Home */,
 				E6C38C171BB3852300A50577 /* DetailViewController.h */,
 				E6C38C181BB3852300A50577 /* DetailViewController.m */,
 				E6C38C191BB3852300A50577 /* MasterViewController.h */,
 				E6C38C1A1BB3852300A50577 /* MasterViewController.m */,
 			);
 			name = ViewController;
+			sourceTree = "<group>";
+		};
+		E6E0FDC81BC7A97E0015D14B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		E6F603761BD63D3000806314 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E6F603791BD63DAB00806314 /* NOSConstants.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		E6F6037A1BD6438100806314 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E6F603811BD75B3000806314 /* UIKit */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		E6F603811BD75B3000806314 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				E6F603821BD75B3000806314 /* UIColor */,
+			);
+			name = UIKit;
+			path = Helper/UIKit;
+			sourceTree = "<group>";
+		};
+		E6F603821BD75B3000806314 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				E6F603831BD75B3000806314 /* UIColor+HEX.h */,
+				E6F603841BD75B3000806314 /* UIColor+HEX.m */,
+			);
+			path = UIColor;
 			sourceTree = "<group>";
 		};
 		E6FA51681BB540930085C620 /* Core */ = {
@@ -382,11 +516,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E63839001BD0934200B40AFB /* LaunchScreen.xib in Resources */,
 				E6E0FDC71BC787850015D14B /* NOSConfig.plist in Resources */,
-				E68F3C381BBC2429007E3A9D /* LaunchScreen.xib in Resources */,
-				E68166AF1BAFFC3B006E7CC7 /* Main.storyboard in Resources */,
+				E63839191BD0EE2D00B40AFB /* server.rb in Resources */,
+				E63839011BD0934200B40AFB /* Main.storyboard in Resources */,
+				E6F6038B1BD7602400806314 /* Localizable.strings in Resources */,
 				E68F3C2D1BBC15EA007E3A9D /* Images.xcassets in Resources */,
+				E638391B1BD0EE9000B40AFB /* recruitments.json in Resources */,
 				E68F3C231BBBE47B007E3A9D /* InfoPlist.strings in Resources */,
+				E63839041BD093B900B40AFB /* Discover.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,10 +612,13 @@
 				E68166A61BAFFC3B006E7CC7 /* NoodlesStu_iOS.xcdatamodeld in Sources */,
 				E68166A31BAFFC3B006E7CC7 /* NOSAppDelegate.m in Sources */,
 				E632CDCE1BB9249E006B710D /* NOSCollege+CoreDataProperties.m in Sources */,
+				E638390A1BD0990500B40AFB /* NOSRecruitmentListViewController.m in Sources */,
+				E6F603851BD75B3000806314 /* UIColor+HEX.m in Sources */,
 				E632CDD71BB945FE006B710D /* NOSModelContants.m in Sources */,
 				E6C38C1C1BB3852300A50577 /* MasterViewController.m in Sources */,
 				E65114281BB11D9400BEDD63 /* NOSRecruitmentModelView.m in Sources */,
 				E68166A01BAFFC3B006E7CC7 /* main.m in Sources */,
+				E63839101BD0C1B900B40AFB /* NOSRecruitmentCell.m in Sources */,
 				E632CDCF1BB9249E006B710D /* NOSCollege.m in Sources */,
 				E632CDD11BB9249E006B710D /* NOSRecruitment.m in Sources */,
 				E632CDD01BB9249E006B710D /* NOSRecruitment+CoreDataProperties.m in Sources */,
@@ -508,12 +649,28 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E68166AD1BAFFC3B006E7CC7 /* Main.storyboard */ = {
+		E63838FC1BD0934200B40AFB /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E68166AE1BAFFC3B006E7CC7 /* Base */,
+				E63838FD1BD0934200B40AFB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		E63838FE1BD0934200B40AFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63838FF1BD0934200B40AFB /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E63839021BD093B900B40AFB /* Discover.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E63839031BD093B900B40AFB /* Base */,
+			);
+			name = Discover.storyboard;
 			sourceTree = "<group>";
 		};
 		E68F3C251BBBE47B007E3A9D /* InfoPlist.strings */ = {
@@ -525,12 +682,12 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E68F3C361BBC2429007E3A9D /* LaunchScreen.xib */ = {
+		E6F603891BD7602400806314 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E68F3C371BBC2429007E3A9D /* Base */,
+				E6F6038A1BD7602400806314 /* Base */,
 			);
-			name = LaunchScreen.xib;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -625,6 +782,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "NoodlesStu-iOS/Supporting Files/NoodlesStu-Prefix.pch";
 				INFOPLIST_FILE = "NoodlesStu-iOS/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hithink.$(PRODUCT_NAME:rfc1034identifier)";
@@ -641,6 +799,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "NoodlesStu-iOS/Supporting Files/NoodlesStu-Prefix.pch";
 				INFOPLIST_FILE = "NoodlesStu-iOS/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hithink.$(PRODUCT_NAME:rfc1034identifier)";

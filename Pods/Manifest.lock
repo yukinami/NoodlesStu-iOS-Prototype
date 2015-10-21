@@ -48,6 +48,7 @@ PODS:
 
 DEPENDENCIES:
   - Expecta (~> 1.0.0)
+  - Masonry
   - Masonry (HEAD)
   - OCMockito (~> 1.0)
   - OHHTTPStubs

@@ -34,7 +34,7 @@ xctool -scheme NoodlesStu-iOS -sdk iphonesimulator -workspace NoodlesStu-iOS.xcw
 ### Archive
 
 ```
-ctool -scheme NoodlesStu-iOS -sdk iphoneos -workspace NoodlesStu-iOS.xcworkspace/  archive
+xctool -scheme NoodlesStu-iOS -sdk iphoneos -workspace NoodlesStu-iOS.xcworkspace/  archive
 ```
 
 

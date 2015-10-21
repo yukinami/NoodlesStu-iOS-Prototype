@@ -29,9 +29,14 @@ SpecBegin(NOSRecruitmentModelView)
         [NOSRecruitment registWithObjectManager:objectManager];
         [NOSErrorMessage registWithObjectManager:objectManager];
         
-        NOSRecruitmentModelView *recruitmentModelView =[[NOSRecruitmentModelView alloc] init];
+        // important: so that query in method could use this RKObjectManager to execute
+        [RKObjectManager setSharedManager:objectManager];
         
         context(@"when method findAll is invoked and server responses successfully without any error", ^{
+            
+            beforeAll(^{
+                [OHHTTPStubs removeAllStubs];
+            });
             
             it(@"should can be fetched", ^{
                 
@@ -45,9 +50,10 @@ SpecBegin(NOSRecruitmentModelView)
                 
                 NSMutableArray *results = [NSMutableArray array];
            
-                [recruitmentModelView findAll:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
+                [NOSRecruitmentModelView findAll:^(RKObjectRequestOperation *operation, RKMappingResult *mappingResult) {
                     
                     NSManagedObjectContext *context = objectManager.managedObjectStore.mainQueueManagedObjectContext;
+                    
                     
                     NSFetchRequest *request = [NSFetchRequest fetchRequestWithEntityName:NOSRecruitmentEntityName ];
                     
@@ -81,7 +87,7 @@ SpecBegin(NOSRecruitmentModelView)
                 
                 NSMutableArray *results = [NSMutableArray array];
     
-                [recruitmentModelView findAll:nil failure:^(RKObjectRequestOperation *operation, NSError *error) {
+                [NOSRecruitmentModelView findAll:nil failure:^(RKObjectRequestOperation *operation, NSError *error) {
                     [results addObject:[[error.userInfo objectForKey:RKObjectMapperErrorObjectsKey] firstObject]];
                 }];
 

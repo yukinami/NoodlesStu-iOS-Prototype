@@ -18,7 +18,7 @@
  *  @param success success block
  *  @param failure failure block
  */
-- (void)findAll:(void (^)(RKObjectRequestOperation *operation, RKMappingResult *mappingResult))success
++ (void)findAll:(void (^)(RKObjectRequestOperation *operation, RKMappingResult *mappingResult))success
         failure:(void (^)(RKObjectRequestOperation *operation, NSError *error))failure;
 
 @end

@@ -12,6 +12,8 @@
 #import "DetailViewController.h"
 #import "MasterViewController.h"
 #import "NOSConfig.h"
+#import "NOSRecruitment.h"
+#import "NOSErrorMessage.h"
 
 
 @interface NOSAppDelegate ()
@@ -51,19 +53,18 @@
     [RKObjectManager setSharedManager:objectManager];
     
     // Configure Entity Mapping
-    
+    [NOSRecruitment registWithObjectManager:objectManager];
+    [NOSErrorMessage registWithObjectManager:objectManager];
+
 }
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOption {
+    
+    [self configRKObjectManager];
     
     // Override point for customization after application launch.
-    
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = [DetailViewController new];
-    [self.window makeKeyAndVisible];
-    
-    /*
+        /*
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
     MasterViewController *controller = (MasterViewController *)navigationController.topViewController;
     controller.managedObjectContext = self.managedObjectContext;

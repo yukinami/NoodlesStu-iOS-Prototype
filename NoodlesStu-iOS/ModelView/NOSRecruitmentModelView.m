@@ -10,7 +10,7 @@
 
 @implementation NOSRecruitmentModelView
 
-- (void)findAll:(void (^)(RKObjectRequestOperation *operation, RKMappingResult *mappingResult))success
++ (void)findAll:(void (^)(RKObjectRequestOperation *operation, RKMappingResult *mappingResult))success
         failure:(void (^)(RKObjectRequestOperation *operation, NSError *error))failure {
     [[RKObjectManager sharedManager] getObjectsAtPath:@"/recruitments" parameters:nil success:success failure:failure];
 }

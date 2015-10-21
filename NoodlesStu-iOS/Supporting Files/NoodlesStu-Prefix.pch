@@ -1,0 +1,19 @@
+//
+//  NoodlesStu-Prefix.pch
+//  NoodlesStu-iOS
+//
+//  Created by Snowblink on 15/10/20.
+//  Copyright © 2015年 HithinkSoft. All rights reserved.
+//
+
+#ifndef NoodlesStu_Prefix_pch
+#define NoodlesStu_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* NoodlesStu_Prefix_pch */
+
+
+#define MAS_SHORTHAND
+#import "Masonry.h"

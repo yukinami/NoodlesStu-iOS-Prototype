@@ -3,6 +3,6 @@
 <plist version="1.0">
 <dict>
 	<key>NOSAPIBaseURL</key>
-	<string>http://develop.hithinksoft.com:9000</string>
+	<string>http://localhost:4567</string>
 </dict>
 </plist>
