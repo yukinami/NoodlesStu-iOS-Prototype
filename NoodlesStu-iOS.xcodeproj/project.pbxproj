@@ -38,6 +38,7 @@
 		E6E0FDC71BC787850015D14B /* NOSConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6E0FDC61BC787850015D14B /* NOSConfig.plist */; settings = {ASSET_TAGS = (); }; };
 		E6F603851BD75B3000806314 /* UIColor+HEX.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F603841BD75B3000806314 /* UIColor+HEX.m */; settings = {ASSET_TAGS = (); }; };
 		E6F6038B1BD7602400806314 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6F603891BD7602400806314 /* Localizable.strings */; settings = {ASSET_TAGS = (); }; };
+		E6F603951BD7B3EC00806314 /* NOSBlueNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F603941BD7B3EC00806314 /* NOSBlueNavigationController.m */; settings = {ASSET_TAGS = (); }; };
 		E6FA516B1BB549F30085C620 /* NOSErrorMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FA516A1BB549F30085C620 /* NOSErrorMessage.m */; settings = {ASSET_TAGS = (); }; };
 		E6FA516D1BB54E130085C620 /* recruitment-422.json in Resources */ = {isa = PBXBuildFile; fileRef = E6FA516C1BB54E130085C620 /* recruitment-422.json */; settings = {ASSET_TAGS = (); }; };
 		E73039BC3A24D51A7085A263 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA54DE155CD1374F33298745 /* libPods.a */; };
@@ -112,6 +113,8 @@
 		E6F603871BD75F2E00806314 /* NOSLocalizedCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSLocalizedCommon.h; path = "Storyboards & Localizations/NOSLocalizedCommon.h"; sourceTree = "<group>"; };
 		E6F603881BD75F5A00806314 /* NOSLocalizedDiscover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSLocalizedDiscover.h; path = "Storyboards & Localizations/NOSLocalizedDiscover.h"; sourceTree = "<group>"; };
 		E6F6038A1BD7602400806314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = "Storyboards & Localizations/Base.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E6F603931BD7B3EC00806314 /* NOSBlueNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSBlueNavigationController.h; path = "ViewController/Navigation Controller/NOSBlueNavigationController.h"; sourceTree = "<group>"; };
+		E6F603941BD7B3EC00806314 /* NOSBlueNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSBlueNavigationController.m; path = "ViewController/Navigation Controller/NOSBlueNavigationController.m"; sourceTree = "<group>"; };
 		E6FA51691BB549F30085C620 /* NOSErrorMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSErrorMessage.h; path = Model/NOSErrorMessage.h; sourceTree = "<group>"; };
 		E6FA516A1BB549F30085C620 /* NOSErrorMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSErrorMessage.m; path = Model/NOSErrorMessage.m; sourceTree = "<group>"; };
 		E6FA516C1BB54E130085C620 /* recruitment-422.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "recruitment-422.json"; path = "Fixtures/recruitment-422.json"; sourceTree = "<group>"; };
@@ -361,6 +364,7 @@
 		E6C38C161BB384DB00A50577 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				E6F603921BD7B35200806314 /* Navigation Controller */,
 				E63838FA1BD0921200B40AFB /* Discover */,
 				E6E0FDC81BC7A97E0015D14B /* Home */,
 				E6C38C171BB3852300A50577 /* DetailViewController.h */,
@@ -410,6 +414,15 @@
 				E6F603841BD75B3000806314 /* UIColor+HEX.m */,
 			);
 			path = UIColor;
+			sourceTree = "<group>";
+		};
+		E6F603921BD7B35200806314 /* Navigation Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E6F603931BD7B3EC00806314 /* NOSBlueNavigationController.h */,
+				E6F603941BD7B3EC00806314 /* NOSBlueNavigationController.m */,
+			);
+			name = "Navigation Controller";
 			sourceTree = "<group>";
 		};
 		E6FA51681BB540930085C620 /* Core */ = {
@@ -614,6 +627,7 @@
 				E632CDCE1BB9249E006B710D /* NOSCollege+CoreDataProperties.m in Sources */,
 				E638390A1BD0990500B40AFB /* NOSRecruitmentListViewController.m in Sources */,
 				E6F603851BD75B3000806314 /* UIColor+HEX.m in Sources */,
+				E6F603951BD7B3EC00806314 /* NOSBlueNavigationController.m in Sources */,
 				E632CDD71BB945FE006B710D /* NOSModelContants.m in Sources */,
 				E6C38C1C1BB3852300A50577 /* MasterViewController.m in Sources */,
 				E65114281BB11D9400BEDD63 /* NOSRecruitmentModelView.m in Sources */,

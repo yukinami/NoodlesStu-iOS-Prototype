@@ -183,5 +183,4 @@ static NSString *const NOSRecruitmentCellIdentifier = @"NOSRecruitmentCell";
     [self.tableView endUpdates];
 }
 
-
 @end

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AXi-IE-ce5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dRN-Wj-igb">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
-        <!--Recruitment List View Controller-->
+        <!--发现-->
         <scene sceneID="bjX-WA-MH1">
             <objects>
                 <tableViewController id="AXi-IE-ce5" customClass="NOSRecruitmentListViewController" sceneMemberID="viewController">
@@ -20,10 +20,144 @@
                             <outlet property="delegate" destination="AXi-IE-ce5" id="mAf-Cx-4AI"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="发现" id="9O7-G0-b9s"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tJX-hW-ZDQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1852" y="182"/>
+        </scene>
+        <!--发现-->
+        <scene sceneID="4XS-tH-p01">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rsb-SB-SP2" customClass="NOSBlueNavigationController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="发现" image="DiscoverTabBarItem" id="FWW-fJ-G37">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="DiscoverTabBarItemSelected"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fkb-zN-dnR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.17482626438140869" green="0.58678358793258667" blue="0.86519014835357666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="AXi-IE-ce5" kind="relationship" relationship="rootViewController" id="R1l-iF-Zhf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a9g-Th-zzX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1040" y="182"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="TXc-v2-zst">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="dRN-Wj-igb" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="gcw-O1-Xez">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="4zG-lb-tH1" kind="relationship" relationship="viewControllers" id="v1D-bq-Vtn"/>
+                        <segue destination="rsb-SB-SP2" kind="relationship" relationship="viewControllers" id="ZZO-aE-DIA"/>
+                        <segue destination="ecr-ep-Iqv" kind="relationship" relationship="viewControllers" id="S0K-Ek-thn"/>
+                        <segue destination="wtc-Sl-byH" kind="relationship" relationship="viewControllers" id="YA8-XH-LIQ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lQg-29-BFR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
             <point key="canvasLocation" x="228" y="182"/>
         </scene>
+        <!--攻略-->
+        <scene sceneID="pSg-oS-98t">
+            <objects>
+                <viewController id="ecr-ep-Iqv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Diy-KZ-oQ2"/>
+                        <viewControllerLayoutGuide type="bottom" id="XKd-xb-0YT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1Ct-S2-7qU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="攻略" image="WalkthroughTabBarItem" id="s7X-PP-jcu">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="WalkthroughTabBarItemSelected"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MCf-YC-CwL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1852" y="969"/>
+        </scene>
+        <!--我的-->
+        <scene sceneID="nGo-pq-P6h">
+            <objects>
+                <viewController id="wtc-Sl-byH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UOK-wq-jKA"/>
+                        <viewControllerLayoutGuide type="bottom" id="bFF-xd-o8B"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gAR-IS-uLl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="我的" image="MyPageTabBarItem" id="33R-kH-Rj4">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="MyPageTabBarItemSelected"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qKm-aW-vQM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1852" y="1754"/>
+        </scene>
+        <!--首页-->
+        <scene sceneID="G25-Ng-NPX">
+            <objects>
+                <viewController id="4zG-lb-tH1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uh9-md-mHH"/>
+                        <viewControllerLayoutGuide type="bottom" id="hJG-10-aUs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="omD-mp-GM1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="首页" image="HomeTabBarItem" id="ERh-bC-He4">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="HomeTabBarItemSelected"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LM9-uI-i3B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1852" y="-622"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="DiscoverTabBarItem" width="30" height="30"/>
+        <image name="DiscoverTabBarItemSelected" width="30" height="30"/>
+        <image name="HomeTabBarItem" width="30" height="30"/>
+        <image name="HomeTabBarItemSelected" width="30" height="30"/>
+        <image name="MyPageTabBarItem" width="30" height="30"/>
+        <image name="MyPageTabBarItemSelected" width="30" height="30"/>
+        <image name="WalkthroughTabBarItem" width="30" height="30"/>
+        <image name="WalkthroughTabBarItemSelected" width="30" height="30"/>
+    </resources>
 </document>
