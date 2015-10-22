@@ -9,8 +9,6 @@
 #import "NOSAppDelegate.h"
 
 #import <RestKit/RestKit.h>
-#import "DetailViewController.h"
-#import "MasterViewController.h"
 #import "NOSConfig.h"
 #import "NOSRecruitment.h"
 #import "NOSErrorMessage.h"

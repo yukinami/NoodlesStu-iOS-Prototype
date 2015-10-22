@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
-        <!--发现-->
+        <!--Recruitment List View Controller-->
         <scene sceneID="bjX-WA-MH1">
             <objects>
-                <tableViewController id="AXi-IE-ce5" customClass="NOSRecruitmentListViewController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="RecruitmentListViewController" id="AXi-IE-ce5" customClass="NOSRecruitmentListViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="BC5-Sv-ct1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -20,15 +20,58 @@
                             <outlet property="delegate" destination="AXi-IE-ce5" id="mAf-Cx-4AI"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="发现" id="9O7-G0-b9s"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tJX-hW-ZDQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1852" y="182"/>
+            <point key="canvasLocation" x="2788" y="-378"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UY4-Ym-hGW">
+            <objects>
+                <viewController storyboardIdentifier="InternshipListViewController" id="uwL-de-6B2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zjd-PL-0Lr"/>
+                        <viewControllerLayoutGuide type="bottom" id="tA0-3D-MFU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zfa-29-okG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7V4-kI-grh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2782" y="677"/>
+        </scene>
+        <!--Discover View Controller-->
+        <scene sceneID="C3G-9C-O0e">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="D9e-cM-0vb" customClass="NOSDiscoverViewController" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="w51-U0-waM">
+                        <nil key="title"/>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="PSm-Fn-FHS">
+                            <rect key="frame" x="180" y="7" width="240" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <segments>
+                                <segment title="宣讲会"/>
+                                <segment title="实习"/>
+                            </segments>
+                            <connections>
+                                <action selector="segmentedControlChanged:" destination="D9e-cM-0vb" eventType="valueChanged" id="Y9h-Pm-O0A"/>
+                            </connections>
+                        </segmentedControl>
+                    </navigationItem>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vyf-c8-9ch" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1826" y="182"/>
         </scene>
         <!--发现-->
         <scene sceneID="4XS-tH-p01">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a9g-Th-zzX" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rsb-SB-SP2" customClass="NOSBlueNavigationController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="发现" image="DiscoverTabBarItem" id="FWW-fJ-G37">
                         <userDefinedRuntimeAttributes>
@@ -49,10 +92,9 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="AXi-IE-ce5" kind="relationship" relationship="rootViewController" id="R1l-iF-Zhf"/>
+                        <segue destination="D9e-cM-0vb" kind="relationship" relationship="rootViewController" id="qs2-vX-1gh"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="a9g-Th-zzX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1040" y="182"/>
         </scene>
