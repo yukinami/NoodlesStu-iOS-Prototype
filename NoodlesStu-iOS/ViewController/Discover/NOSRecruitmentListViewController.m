@@ -47,8 +47,12 @@ static NSString *const NOSRecruitmentCellIdentifier = @"NOSRecruitmentCell";
         [self.refreshControl endRefreshing];
     } failure:^(RKObjectRequestOperation *operation, NSError *error) {
         [self.refreshControl endRefreshing];
+        
+        #pragma clang diagnostic push
+        #pragma clang diagnostic ignored "-Wdeprecated-declarations"
         UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"An Error Has Occurred" message:[error localizedDescription] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
         [alertView show];
+        #pragma clang diagnostic pop
     }];
 }
 
