@@ -16,7 +16,21 @@ Library & Aacknowledgements
 3. [Speckta][speckta]
 4. [Expecta][expecta]
 5. [OHHTTPStubs][OHHTTPStubs]
+6. [Masonry][Masonry]
 
+Run
+----
+
+### Requirement
+
+1. Xcode 7.0+
+2. iOS 9
+
+### Run the dummy server
+
+```
+ruby Dummy\ Server/server.rb
+```
 
 
 Building
@@ -38,8 +52,10 @@ xctool -scheme NoodlesStu-iOS -sdk iphoneos -workspace NoodlesStu-iOS.xcworkspac
 ```
 
 
-
-
+TODO
+----
+1. UI Test
+2. refactor with MVVM (use ReactiveCocoa for Bi-directional Data Bindings)
 
 
 
@@ -59,3 +75,4 @@ xctool -scheme NoodlesStu-iOS -sdk iphoneos -workspace NoodlesStu-iOS.xcworkspac
 [speckta]: https://github.com/specta/specta
 [expecta]: https://github.com/specta/expecta
 [OHHTTPStubs]: https://github.com/AliSoftware/OHHTTPStubs
+[Masonry]: https://github.com/SnapKit/Masonry
