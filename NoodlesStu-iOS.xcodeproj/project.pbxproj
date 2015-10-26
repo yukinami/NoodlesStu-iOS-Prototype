@@ -8,38 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		220A0599494D044DBC727765 /* libPods-NoodlesStu-iOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B71CF07321352659C01E05A4 /* libPods-NoodlesStu-iOSTests.a */; };
-		E632CDCE1BB9249E006B710D /* NOSCollege+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E632CDC71BB9249E006B710D /* NOSCollege+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
-		E632CDCF1BB9249E006B710D /* NOSCollege.m in Sources */ = {isa = PBXBuildFile; fileRef = E632CDC91BB9249E006B710D /* NOSCollege.m */; settings = {ASSET_TAGS = (); }; };
-		E632CDD01BB9249E006B710D /* NOSRecruitment+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E632CDCB1BB9249E006B710D /* NOSRecruitment+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
-		E632CDD11BB9249E006B710D /* NOSRecruitment.m in Sources */ = {isa = PBXBuildFile; fileRef = E632CDCD1BB9249E006B710D /* NOSRecruitment.m */; settings = {ASSET_TAGS = (); }; };
-		E632CDD71BB945FE006B710D /* NOSModelContants.m in Sources */ = {isa = PBXBuildFile; fileRef = E632CDD61BB945FE006B710D /* NOSModelContants.m */; settings = {ASSET_TAGS = (); }; };
+		E632CDCE1BB9249E006B710D /* NOSCollege+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E632CDC71BB9249E006B710D /* NOSCollege+CoreDataProperties.m */; };
+		E632CDCF1BB9249E006B710D /* NOSCollege.m in Sources */ = {isa = PBXBuildFile; fileRef = E632CDC91BB9249E006B710D /* NOSCollege.m */; };
+		E632CDD01BB9249E006B710D /* NOSRecruitment+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E632CDCB1BB9249E006B710D /* NOSRecruitment+CoreDataProperties.m */; };
+		E632CDD11BB9249E006B710D /* NOSRecruitment.m in Sources */ = {isa = PBXBuildFile; fileRef = E632CDCD1BB9249E006B710D /* NOSRecruitment.m */; };
+		E632CDD71BB945FE006B710D /* NOSModelContants.m in Sources */ = {isa = PBXBuildFile; fileRef = E632CDD61BB945FE006B710D /* NOSModelContants.m */; };
 		E637C0611BB00371008E0335 /* recruitment.json in Resources */ = {isa = PBXBuildFile; fileRef = E637C0601BB00371008E0335 /* recruitment.json */; };
-		E63839001BD0934200B40AFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63838FC1BD0934200B40AFB /* LaunchScreen.xib */; settings = {ASSET_TAGS = (); }; };
-		E638390A1BD0990500B40AFB /* NOSRecruitmentListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63839091BD0990500B40AFB /* NOSRecruitmentListViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E63839101BD0C1B900B40AFB /* NOSRecruitmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E638390F1BD0C1B900B40AFB /* NOSRecruitmentCell.m */; settings = {ASSET_TAGS = (); }; };
-		E63839191BD0EE2D00B40AFB /* server.rb in Resources */ = {isa = PBXBuildFile; fileRef = E63839181BD0EE2D00B40AFB /* server.rb */; settings = {ASSET_TAGS = (); }; };
-		E638391B1BD0EE9000B40AFB /* recruitments.json in Resources */ = {isa = PBXBuildFile; fileRef = E638391A1BD0EE9000B40AFB /* recruitments.json */; settings = {ASSET_TAGS = (); }; };
+		E63839001BD0934200B40AFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E63838FC1BD0934200B40AFB /* LaunchScreen.xib */; };
+		E638390A1BD0990500B40AFB /* NOSRecruitmentListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E63839091BD0990500B40AFB /* NOSRecruitmentListViewController.m */; };
+		E63839101BD0C1B900B40AFB /* NOSRecruitmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E638390F1BD0C1B900B40AFB /* NOSRecruitmentCell.m */; };
+		E63839191BD0EE2D00B40AFB /* server.rb in Resources */ = {isa = PBXBuildFile; fileRef = E63839181BD0EE2D00B40AFB /* server.rb */; };
+		E638391B1BD0EE9000B40AFB /* recruitments.json in Resources */ = {isa = PBXBuildFile; fileRef = E638391A1BD0EE9000B40AFB /* recruitments.json */; };
 		E65114241BB0FCFB00BEDD63 /* RecruitmentTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E65114231BB0FCFB00BEDD63 /* RecruitmentTest.m */; };
 		E65114281BB11D9400BEDD63 /* NOSRecruitmentModelView.m in Sources */ = {isa = PBXBuildFile; fileRef = E65114271BB11D9400BEDD63 /* NOSRecruitmentModelView.m */; };
 		E65114351BB24B4600BEDD63 /* NOSConfigTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E65114341BB24B4600BEDD63 /* NOSConfigTest.m */; };
-		E65943EB1BB2D516005C0A53 /* NOSRecruitmentModelViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E65943EA1BB2D516005C0A53 /* NOSRecruitmentModelViewTest.m */; settings = {ASSET_TAGS = (); }; };
+		E65943EB1BB2D516005C0A53 /* NOSRecruitmentModelViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E65943EA1BB2D516005C0A53 /* NOSRecruitmentModelViewTest.m */; };
 		E68166A01BAFFC3B006E7CC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E681669F1BAFFC3B006E7CC7 /* main.m */; };
 		E68166A31BAFFC3B006E7CC7 /* NOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E68166A21BAFFC3B006E7CC7 /* NOSAppDelegate.m */; };
 		E68166A61BAFFC3B006E7CC7 /* NoodlesStu_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E68166A41BAFFC3B006E7CC7 /* NoodlesStu_iOS.xcdatamodeld */; };
 		E68166C01BAFFC3B006E7CC7 /* NoodlesStu_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E68166BF1BAFFC3B006E7CC7 /* NoodlesStu_iOSTests.m */; };
 		E68F3C231BBBE47B007E3A9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E68F3C251BBBE47B007E3A9D /* InfoPlist.strings */; };
-		E68F3C2D1BBC15EA007E3A9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68F3C2C1BBC15EA007E3A9D /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
-		E68F3C311BBC176E007E3A9D /* NOSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E68F3C301BBC176E007E3A9D /* NOSConfig.m */; settings = {ASSET_TAGS = (); }; };
+		E68F3C2D1BBC15EA007E3A9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68F3C2C1BBC15EA007E3A9D /* Images.xcassets */; };
+		E68F3C311BBC176E007E3A9D /* NOSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E68F3C301BBC176E007E3A9D /* NOSConfig.m */; };
 		E690A3E81BB282C200637622 /* recruitments.json in Resources */ = {isa = PBXBuildFile; fileRef = E690A3E71BB282C200637622 /* recruitments.json */; };
-		E6E0FDC71BC787850015D14B /* NOSConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6E0FDC61BC787850015D14B /* NOSConfig.plist */; settings = {ASSET_TAGS = (); }; };
-		E6F603851BD75B3000806314 /* UIColor+HEX.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F603841BD75B3000806314 /* UIColor+HEX.m */; settings = {ASSET_TAGS = (); }; };
-		E6F6038B1BD7602400806314 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6F603891BD7602400806314 /* Localizable.strings */; settings = {ASSET_TAGS = (); }; };
-		E6F603951BD7B3EC00806314 /* NOSBlueNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F603941BD7B3EC00806314 /* NOSBlueNavigationController.m */; settings = {ASSET_TAGS = (); }; };
-		E6F6039C1BD871B600806314 /* NOSDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F6039B1BD871B600806314 /* NOSDiscoverViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E6F603A81BD8AB0B00806314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F603A61BD8AB0B00806314 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
-		E6F603AB1BD8AC6900806314 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F603A91BD8AC6900806314 /* Discover.storyboard */; settings = {ASSET_TAGS = (); }; };
-		E6FA516B1BB549F30085C620 /* NOSErrorMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FA516A1BB549F30085C620 /* NOSErrorMessage.m */; settings = {ASSET_TAGS = (); }; };
-		E6FA516D1BB54E130085C620 /* recruitment-422.json in Resources */ = {isa = PBXBuildFile; fileRef = E6FA516C1BB54E130085C620 /* recruitment-422.json */; settings = {ASSET_TAGS = (); }; };
+		E6E0FDC71BC787850015D14B /* NOSConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6E0FDC61BC787850015D14B /* NOSConfig.plist */; };
+		E6F603851BD75B3000806314 /* UIColor+HEX.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F603841BD75B3000806314 /* UIColor+HEX.m */; };
+		E6F6038B1BD7602400806314 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6F603891BD7602400806314 /* Localizable.strings */; };
+		E6F603951BD7B3EC00806314 /* NOSBlueNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F603941BD7B3EC00806314 /* NOSBlueNavigationController.m */; };
+		E6F6039C1BD871B600806314 /* NOSDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F6039B1BD871B600806314 /* NOSDiscoverViewController.m */; };
+		E6F603A81BD8AB0B00806314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F603A61BD8AB0B00806314 /* Main.storyboard */; };
+		E6F603AB1BD8AC6900806314 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F603A91BD8AC6900806314 /* Discover.storyboard */; };
+		E6FA516B1BB549F30085C620 /* NOSErrorMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FA516A1BB549F30085C620 /* NOSErrorMessage.m */; };
+		E6FA516D1BB54E130085C620 /* recruitment-422.json in Resources */ = {isa = PBXBuildFile; fileRef = E6FA516C1BB54E130085C620 /* recruitment-422.json */; };
 		E73039BC3A24D51A7085A263 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA54DE155CD1374F33298745 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -487,6 +487,7 @@
 		E68166921BAFFC3A006E7CC7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = NOS;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = HithinkSoft;
 				TargetAttributes = {
