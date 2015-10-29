@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		220A0599494D044DBC727765 /* libPods-NoodlesStu-iOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B71CF07321352659C01E05A4 /* libPods-NoodlesStu-iOSTests.a */; };
+		8D1A865A30A77B329967DA2B /* libPods-NoodlesStu-iOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D7518F7E39233D9B4613FB /* libPods-NoodlesStu-iOSTests.a */; };
+		CB1EF768FD558660BB76A054 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FDE0FC70BE6B6ADB1A71A7 /* libPods.a */; };
+		E620CAA81BE0B33300C72797 /* NOSTableViewBindingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E620CAA71BE0B33300C72797 /* NOSTableViewBindingHelper.m */; };
 		E632CDCE1BB9249E006B710D /* NOSCollege+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E632CDC71BB9249E006B710D /* NOSCollege+CoreDataProperties.m */; };
 		E632CDCF1BB9249E006B710D /* NOSCollege.m in Sources */ = {isa = PBXBuildFile; fileRef = E632CDC91BB9249E006B710D /* NOSCollege.m */; };
 		E632CDD01BB9249E006B710D /* NOSRecruitment+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E632CDCB1BB9249E006B710D /* NOSRecruitment+CoreDataProperties.m */; };
@@ -19,19 +21,21 @@
 		E63839101BD0C1B900B40AFB /* NOSRecruitmentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E638390F1BD0C1B900B40AFB /* NOSRecruitmentCell.m */; };
 		E63839191BD0EE2D00B40AFB /* server.rb in Resources */ = {isa = PBXBuildFile; fileRef = E63839181BD0EE2D00B40AFB /* server.rb */; };
 		E638391B1BD0EE9000B40AFB /* recruitments.json in Resources */ = {isa = PBXBuildFile; fileRef = E638391A1BD0EE9000B40AFB /* recruitments.json */; };
-		E65114241BB0FCFB00BEDD63 /* RecruitmentTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E65114231BB0FCFB00BEDD63 /* RecruitmentTest.m */; };
-		E65114281BB11D9400BEDD63 /* NOSRecruitmentModelView.m in Sources */ = {isa = PBXBuildFile; fileRef = E65114271BB11D9400BEDD63 /* NOSRecruitmentModelView.m */; };
-		E65114351BB24B4600BEDD63 /* NOSConfigTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E65114341BB24B4600BEDD63 /* NOSConfigTest.m */; };
-		E65943EB1BB2D516005C0A53 /* NOSRecruitmentModelViewTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E65943EA1BB2D516005C0A53 /* NOSRecruitmentModelViewTest.m */; };
 		E68166A01BAFFC3B006E7CC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E681669F1BAFFC3B006E7CC7 /* main.m */; };
 		E68166A31BAFFC3B006E7CC7 /* NOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E68166A21BAFFC3B006E7CC7 /* NOSAppDelegate.m */; };
 		E68166A61BAFFC3B006E7CC7 /* NoodlesStu_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E68166A41BAFFC3B006E7CC7 /* NoodlesStu_iOS.xcdatamodeld */; };
 		E68166C01BAFFC3B006E7CC7 /* NoodlesStu_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E68166BF1BAFFC3B006E7CC7 /* NoodlesStu_iOSTests.m */; };
 		E68F3C231BBBE47B007E3A9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E68F3C251BBBE47B007E3A9D /* InfoPlist.strings */; };
 		E68F3C2D1BBC15EA007E3A9D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E68F3C2C1BBC15EA007E3A9D /* Images.xcassets */; };
-		E68F3C311BBC176E007E3A9D /* NOSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E68F3C301BBC176E007E3A9D /* NOSConfig.m */; };
 		E690A3E81BB282C200637622 /* recruitments.json in Resources */ = {isa = PBXBuildFile; fileRef = E690A3E71BB282C200637622 /* recruitments.json */; };
-		E6E0FDC71BC787850015D14B /* NOSConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6E0FDC61BC787850015D14B /* NOSConfig.plist */; };
+		E6B8437C1BE21C7700F0CCAF /* NOSEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B8437B1BE21C7700F0CCAF /* NOSEnvironment.m */; };
+		E6B8437F1BE2210000F0CCAF /* NOSEnvironment-production.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6B8437D1BE2210000F0CCAF /* NOSEnvironment-production.plist */; };
+		E6B843801BE2210000F0CCAF /* NOSEnvironment-test.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6B8437E1BE2210000F0CCAF /* NOSEnvironment-test.plist */; };
+		E6B843831BE2230900F0CCAF /* NOSEnvironmentTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B843821BE2230900F0CCAF /* NOSEnvironmentTest.m */; };
+		E6B843851BE2231400F0CCAF /* RecruitmentTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B843841BE2231400F0CCAF /* RecruitmentTest.m */; };
+		E6E0FDC71BC787850015D14B /* NOSEnvironment-develop.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6E0FDC61BC787850015D14B /* NOSEnvironment-develop.plist */; };
+		E6E4F7E41BDFB14B000C9B97 /* NOSRecruitmentListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E4F7E31BDFB14B000C9B97 /* NOSRecruitmentListViewModel.m */; };
+		E6E4F7E71BDFB1D8000C9B97 /* NOSRecruitmentCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E4F7E61BDFB1D8000C9B97 /* NOSRecruitmentCellViewModel.m */; };
 		E6F603851BD75B3000806314 /* UIColor+HEX.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F603841BD75B3000806314 /* UIColor+HEX.m */; };
 		E6F6038B1BD7602400806314 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6F603891BD7602400806314 /* Localizable.strings */; };
 		E6F603951BD7B3EC00806314 /* NOSBlueNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F603941BD7B3EC00806314 /* NOSBlueNavigationController.m */; };
@@ -40,7 +44,6 @@
 		E6F603AB1BD8AC6900806314 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F603A91BD8AC6900806314 /* Discover.storyboard */; };
 		E6FA516B1BB549F30085C620 /* NOSErrorMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FA516A1BB549F30085C620 /* NOSErrorMessage.m */; };
 		E6FA516D1BB54E130085C620 /* recruitment-422.json in Resources */ = {isa = PBXBuildFile; fileRef = E6FA516C1BB54E130085C620 /* recruitment-422.json */; };
-		E73039BC3A24D51A7085A263 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA54DE155CD1374F33298745 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +57,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24FDE0FC70BE6B6ADB1A71A7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2540E097A6CADE871DFDD2D5 /* Pods-NoodlesStu-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoodlesStu-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoodlesStu-iOSTests/Pods-NoodlesStu-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81D7518F7E39233D9B4613FB /* libPods-NoodlesStu-iOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NoodlesStu-iOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C40E75FEAF2DFD7B1C8943 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		B71CF07321352659C01E05A4 /* libPods-NoodlesStu-iOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NoodlesStu-iOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB766F635BD1649AA805ED90 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D649449541FCBC62E0D14251 /* Pods-NoodlesStu-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoodlesStu-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoodlesStu-iOSTests/Pods-NoodlesStu-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		E620CAA51BE0B33300C72797 /* NOSReactiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSReactiveView.h; path = View/NOSReactiveView.h; sourceTree = "<group>"; };
+		E620CAA61BE0B33300C72797 /* NOSTableViewBindingHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSTableViewBindingHelper.h; path = View/NOSTableViewBindingHelper.h; sourceTree = "<group>"; };
+		E620CAA71BE0B33300C72797 /* NOSTableViewBindingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSTableViewBindingHelper.m; path = View/NOSTableViewBindingHelper.m; sourceTree = "<group>"; };
 		E632CDC61BB9249E006B710D /* NOSCollege+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NOSCollege+CoreDataProperties.h"; path = "Model/NOSCollege+CoreDataProperties.h"; sourceTree = "<group>"; };
 		E632CDC71BB9249E006B710D /* NOSCollege+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NOSCollege+CoreDataProperties.m"; path = "Model/NOSCollege+CoreDataProperties.m"; sourceTree = "<group>"; };
 		E632CDC81BB9249E006B710D /* NOSCollege.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSCollege.h; path = Model/NOSCollege.h; sourceTree = "<group>"; };
@@ -67,7 +74,6 @@
 		E632CDCB1BB9249E006B710D /* NOSRecruitment+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NOSRecruitment+CoreDataProperties.m"; path = "Model/NOSRecruitment+CoreDataProperties.m"; sourceTree = "<group>"; };
 		E632CDCC1BB9249E006B710D /* NOSRecruitment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSRecruitment.h; path = Model/NOSRecruitment.h; sourceTree = "<group>"; };
 		E632CDCD1BB9249E006B710D /* NOSRecruitment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSRecruitment.m; path = Model/NOSRecruitment.m; sourceTree = "<group>"; };
-		E632CDD41BB92B45006B710D /* NOSRKEntityDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSRKEntityDelegate.h; path = Core/NOSRKEntityDelegate.h; sourceTree = "<group>"; };
 		E632CDD51BB945AB006B710D /* NOSModelContants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSModelContants.h; path = Model/NOSModelContants.h; sourceTree = "<group>"; };
 		E632CDD61BB945FE006B710D /* NOSModelContants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSModelContants.m; path = Model/NOSModelContants.m; sourceTree = "<group>"; };
 		E637C0601BB00371008E0335 /* recruitment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recruitment.json; path = Fixtures/recruitment.json; sourceTree = "<group>"; };
@@ -78,11 +84,6 @@
 		E638390F1BD0C1B900B40AFB /* NOSRecruitmentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSRecruitmentCell.m; path = "View/Custom Table Cells/NOSRecruitmentCell.m"; sourceTree = "<group>"; };
 		E63839181BD0EE2D00B40AFB /* server.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = server.rb; path = "Dummy Server/server.rb"; sourceTree = "<group>"; };
 		E638391A1BD0EE9000B40AFB /* recruitments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recruitments.json; path = "Dummy Server/Fixtures/recruitments.json"; sourceTree = "<group>"; };
-		E65114231BB0FCFB00BEDD63 /* RecruitmentTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecruitmentTest.m; sourceTree = "<group>"; };
-		E65114261BB11D9400BEDD63 /* NOSRecruitmentModelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSRecruitmentModelView.h; path = ModelView/NOSRecruitmentModelView.h; sourceTree = "<group>"; };
-		E65114271BB11D9400BEDD63 /* NOSRecruitmentModelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSRecruitmentModelView.m; path = ModelView/NOSRecruitmentModelView.m; sourceTree = "<group>"; };
-		E65114341BB24B4600BEDD63 /* NOSConfigTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOSConfigTest.m; sourceTree = "<group>"; };
-		E65943EA1BB2D516005C0A53 /* NOSRecruitmentModelViewTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSRecruitmentModelViewTest.m; path = ModelView/NOSRecruitmentModelViewTest.m; sourceTree = "<group>"; };
 		E681669A1BAFFC3B006E7CC7 /* NoodlesStu-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NoodlesStu-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E681669E1BAFFC3B006E7CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
 		E681669F1BAFFC3B006E7CC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
@@ -94,10 +95,19 @@
 		E68166BF1BAFFC3B006E7CC7 /* NoodlesStu_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoodlesStu_iOSTests.m; sourceTree = "<group>"; };
 		E68F3C291BBBE816007E3A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E68F3C2C1BBC15EA007E3A9D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Resouces/Images.xcassets; sourceTree = "<group>"; };
-		E68F3C2F1BBC176E007E3A9D /* NOSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSConfig.h; path = Conf/NOSConfig.h; sourceTree = "<group>"; };
-		E68F3C301BBC176E007E3A9D /* NOSConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSConfig.m; path = Conf/NOSConfig.m; sourceTree = "<group>"; };
 		E690A3E71BB282C200637622 /* recruitments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recruitments.json; path = Fixtures/recruitments.json; sourceTree = "<group>"; };
-		E6E0FDC61BC787850015D14B /* NOSConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = NOSConfig.plist; path = "Supporting Files/NOSConfig.plist"; sourceTree = "<group>"; };
+		E6B843791BE21BDE00F0CCAF /* NOSRKEntityDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NOSRKEntityDelegate.h; path = Model/NOSRKEntityDelegate.h; sourceTree = "<group>"; };
+		E6B8437A1BE21C7700F0CCAF /* NOSEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSEnvironment.h; path = Common/NOSEnvironment.h; sourceTree = "<group>"; };
+		E6B8437B1BE21C7700F0CCAF /* NOSEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSEnvironment.m; path = Common/NOSEnvironment.m; sourceTree = "<group>"; };
+		E6B8437D1BE2210000F0CCAF /* NOSEnvironment-production.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "NOSEnvironment-production.plist"; path = "Supporting Files/NOSEnvironment-production.plist"; sourceTree = "<group>"; };
+		E6B8437E1BE2210000F0CCAF /* NOSEnvironment-test.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "NOSEnvironment-test.plist"; path = "Supporting Files/NOSEnvironment-test.plist"; sourceTree = "<group>"; };
+		E6B843821BE2230900F0CCAF /* NOSEnvironmentTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSEnvironmentTest.m; path = Common/NOSEnvironmentTest.m; sourceTree = "<group>"; };
+		E6B843841BE2231400F0CCAF /* RecruitmentTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RecruitmentTest.m; path = Model/RecruitmentTest.m; sourceTree = "<group>"; };
+		E6E0FDC61BC787850015D14B /* NOSEnvironment-develop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "NOSEnvironment-develop.plist"; path = "Supporting Files/NOSEnvironment-develop.plist"; sourceTree = "<group>"; };
+		E6E4F7E21BDFB14B000C9B97 /* NOSRecruitmentListViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSRecruitmentListViewModel.h; path = ViewModel/NOSRecruitmentListViewModel.h; sourceTree = "<group>"; };
+		E6E4F7E31BDFB14B000C9B97 /* NOSRecruitmentListViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSRecruitmentListViewModel.m; path = ViewModel/NOSRecruitmentListViewModel.m; sourceTree = "<group>"; };
+		E6E4F7E51BDFB1D8000C9B97 /* NOSRecruitmentCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSRecruitmentCellViewModel.h; path = ViewModel/NOSRecruitmentCellViewModel.h; sourceTree = "<group>"; };
+		E6E4F7E61BDFB1D8000C9B97 /* NOSRecruitmentCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSRecruitmentCellViewModel.m; path = ViewModel/NOSRecruitmentCellViewModel.m; sourceTree = "<group>"; };
 		E6F603751BD6198500806314 /* NoodlesStu-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NoodlesStu-Prefix.pch"; path = "Supporting Files/NoodlesStu-Prefix.pch"; sourceTree = "<group>"; };
 		E6F603791BD63DAB00806314 /* NOSConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSConstants.h; path = Common/NOSConstants.h; sourceTree = "<group>"; };
 		E6F603831BD75B3000806314 /* UIColor+HEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HEX.h"; sourceTree = "<group>"; };
@@ -115,7 +125,6 @@
 		E6FA51691BB549F30085C620 /* NOSErrorMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NOSErrorMessage.h; path = Model/NOSErrorMessage.h; sourceTree = "<group>"; };
 		E6FA516A1BB549F30085C620 /* NOSErrorMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NOSErrorMessage.m; path = Model/NOSErrorMessage.m; sourceTree = "<group>"; };
 		E6FA516C1BB54E130085C620 /* recruitment-422.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "recruitment-422.json"; path = "Fixtures/recruitment-422.json"; sourceTree = "<group>"; };
-		EA54DE155CD1374F33298745 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E73039BC3A24D51A7085A263 /* libPods.a in Frameworks */,
+				CB1EF768FD558660BB76A054 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				220A0599494D044DBC727765 /* libPods-NoodlesStu-iOSTests.a in Frameworks */,
+				8D1A865A30A77B329967DA2B /* libPods-NoodlesStu-iOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +150,8 @@
 		E2D03BD3B24C076D1EF9F3BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EA54DE155CD1374F33298745 /* libPods.a */,
-				B71CF07321352659C01E05A4 /* libPods-NoodlesStu-iOSTests.a */,
+				24FDE0FC70BE6B6ADB1A71A7 /* libPods.a */,
+				81D7518F7E39233D9B4613FB /* libPods-NoodlesStu-iOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -160,6 +169,7 @@
 		E637C0671BB0FB0E008E0335 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E6B843791BE21BDE00F0CCAF /* NOSRKEntityDelegate.h */,
 				E6FA51691BB549F30085C620 /* NOSErrorMessage.h */,
 				E6FA516A1BB549F30085C620 /* NOSErrorMessage.m */,
 				E632CDC61BB9249E006B710D /* NOSCollege+CoreDataProperties.h */,
@@ -179,7 +189,7 @@
 		E637C06B1BB0FBAC008E0335 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				E65114231BB0FCFB00BEDD63 /* RecruitmentTest.m */,
+				E6B843841BE2231400F0CCAF /* RecruitmentTest.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -212,6 +222,9 @@
 		E638390B1BD0993900B40AFB /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E620CAA51BE0B33300C72797 /* NOSReactiveView.h */,
+				E620CAA61BE0B33300C72797 /* NOSTableViewBindingHelper.h */,
+				E620CAA71BE0B33300C72797 /* NOSTableViewBindingHelper.m */,
 				E638390C1BD099A800B40AFB /* Custom Table Cells */,
 			);
 			name = View;
@@ -251,23 +264,6 @@
 			name = Fixtures;
 			sourceTree = "<group>";
 		};
-		E65114251BB11D4300BEDD63 /* ModelView */ = {
-			isa = PBXGroup;
-			children = (
-				E65114261BB11D9400BEDD63 /* NOSRecruitmentModelView.h */,
-				E65114271BB11D9400BEDD63 /* NOSRecruitmentModelView.m */,
-			);
-			name = ModelView;
-			sourceTree = "<group>";
-		};
-		E65943E81BB2D4C1005C0A53 /* ModelView */ = {
-			isa = PBXGroup;
-			children = (
-				E65943EA1BB2D516005C0A53 /* NOSRecruitmentModelViewTest.m */,
-			);
-			name = ModelView;
-			sourceTree = "<group>";
-		};
 		E68166911BAFFC3A006E7CC7 = {
 			isa = PBXGroup;
 			children = (
@@ -295,11 +291,9 @@
 				E6F6037A1BD6438100806314 /* Helper */,
 				E6F603761BD63D3000806314 /* Common */,
 				E63838FB1BD092BD00B40AFB /* Storyboards & Localizations */,
-				E68F3C2E1BBC1746007E3A9D /* Conf */,
 				E68F3C2B1BBC15DB007E3A9D /* Resources */,
-				E6FA51681BB540930085C620 /* Core */,
 				E6C38C161BB384DB00A50577 /* ViewController */,
-				E65114251BB11D4300BEDD63 /* ModelView */,
+				E6E4F7E11BDF7615000C9B97 /* ViewModel */,
 				E637C0671BB0FB0E008E0335 /* Model */,
 				E638390B1BD0993900B40AFB /* View */,
 				E68166A11BAFFC3B006E7CC7 /* NOSAppDelegate.h */,
@@ -313,7 +307,9 @@
 		E681669D1BAFFC3B006E7CC7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E6E0FDC61BC787850015D14B /* NOSConfig.plist */,
+				E6E0FDC61BC787850015D14B /* NOSEnvironment-develop.plist */,
+				E6B8437E1BE2210000F0CCAF /* NOSEnvironment-test.plist */,
+				E6B8437D1BE2210000F0CCAF /* NOSEnvironment-production.plist */,
 				E681669E1BAFFC3B006E7CC7 /* Info.plist */,
 				E681669F1BAFFC3B006E7CC7 /* main.m */,
 				E68F3C251BBBE47B007E3A9D /* InfoPlist.strings */,
@@ -325,12 +321,11 @@
 		E68166BC1BAFFC3B006E7CC7 /* NoodlesStu-iOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				E65943E81BB2D4C1005C0A53 /* ModelView */,
+				E6B843811BE222DE00F0CCAF /* Common */,
 				E637C06B1BB0FBAC008E0335 /* Model */,
 				E637C05D1BB002DB008E0335 /* Fixtures */,
 				E68166BF1BAFFC3B006E7CC7 /* NoodlesStu_iOSTests.m */,
 				E68166BD1BAFFC3B006E7CC7 /* Supporting Files */,
-				E65114341BB24B4600BEDD63 /* NOSConfigTest.m */,
 			);
 			path = "NoodlesStu-iOSTests";
 			sourceTree = "<group>";
@@ -351,13 +346,12 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		E68F3C2E1BBC1746007E3A9D /* Conf */ = {
+		E6B843811BE222DE00F0CCAF /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				E68F3C2F1BBC176E007E3A9D /* NOSConfig.h */,
-				E68F3C301BBC176E007E3A9D /* NOSConfig.m */,
+				E6B843821BE2230900F0CCAF /* NOSEnvironmentTest.m */,
 			);
-			name = Conf;
+			name = Common;
 			sourceTree = "<group>";
 		};
 		E6C38C161BB384DB00A50577 /* ViewController */ = {
@@ -377,10 +371,23 @@
 			name = Home;
 			sourceTree = "<group>";
 		};
+		E6E4F7E11BDF7615000C9B97 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E6E4F7E21BDFB14B000C9B97 /* NOSRecruitmentListViewModel.h */,
+				E6E4F7E31BDFB14B000C9B97 /* NOSRecruitmentListViewModel.m */,
+				E6E4F7E51BDFB1D8000C9B97 /* NOSRecruitmentCellViewModel.h */,
+				E6E4F7E61BDFB1D8000C9B97 /* NOSRecruitmentCellViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
 		E6F603761BD63D3000806314 /* Common */ = {
 			isa = PBXGroup;
 			children = (
 				E6F603791BD63DAB00806314 /* NOSConstants.h */,
+				E6B8437A1BE21C7700F0CCAF /* NOSEnvironment.h */,
+				E6B8437B1BE21C7700F0CCAF /* NOSEnvironment.m */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -418,14 +425,6 @@
 				E6F603941BD7B3EC00806314 /* NOSBlueNavigationController.m */,
 			);
 			name = "Navigation Controller";
-			sourceTree = "<group>";
-		};
-		E6FA51681BB540930085C620 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				E632CDD41BB92B45006B710D /* NOSRKEntityDelegate.h */,
-			);
-			name = Core;
 			sourceTree = "<group>";
 		};
 		E8B8A1782D174178F82979C1 /* Pods */ = {
@@ -526,10 +525,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E63839001BD0934200B40AFB /* LaunchScreen.xib in Resources */,
-				E6E0FDC71BC787850015D14B /* NOSConfig.plist in Resources */,
+				E6E0FDC71BC787850015D14B /* NOSEnvironment-develop.plist in Resources */,
+				E6B8437F1BE2210000F0CCAF /* NOSEnvironment-production.plist in Resources */,
 				E63839191BD0EE2D00B40AFB /* server.rb in Resources */,
 				E6F6038B1BD7602400806314 /* Localizable.strings in Resources */,
 				E68F3C2D1BBC15EA007E3A9D /* Images.xcassets in Resources */,
+				E6B843801BE2210000F0CCAF /* NOSEnvironment-test.plist in Resources */,
 				E638391B1BD0EE9000B40AFB /* recruitments.json in Resources */,
 				E68F3C231BBBE47B007E3A9D /* InfoPlist.strings in Resources */,
 				E6F603A81BD8AB0B00806314 /* Main.storyboard in Resources */,
@@ -619,20 +620,22 @@
 			files = (
 				E6FA516B1BB549F30085C620 /* NOSErrorMessage.m in Sources */,
 				E68166A61BAFFC3B006E7CC7 /* NoodlesStu_iOS.xcdatamodeld in Sources */,
+				E620CAA81BE0B33300C72797 /* NOSTableViewBindingHelper.m in Sources */,
 				E6F6039C1BD871B600806314 /* NOSDiscoverViewController.m in Sources */,
+				E6E4F7E41BDFB14B000C9B97 /* NOSRecruitmentListViewModel.m in Sources */,
+				E6E4F7E71BDFB1D8000C9B97 /* NOSRecruitmentCellViewModel.m in Sources */,
 				E68166A31BAFFC3B006E7CC7 /* NOSAppDelegate.m in Sources */,
 				E632CDCE1BB9249E006B710D /* NOSCollege+CoreDataProperties.m in Sources */,
 				E638390A1BD0990500B40AFB /* NOSRecruitmentListViewController.m in Sources */,
 				E6F603851BD75B3000806314 /* UIColor+HEX.m in Sources */,
+				E6B8437C1BE21C7700F0CCAF /* NOSEnvironment.m in Sources */,
 				E6F603951BD7B3EC00806314 /* NOSBlueNavigationController.m in Sources */,
 				E632CDD71BB945FE006B710D /* NOSModelContants.m in Sources */,
-				E65114281BB11D9400BEDD63 /* NOSRecruitmentModelView.m in Sources */,
 				E68166A01BAFFC3B006E7CC7 /* main.m in Sources */,
 				E63839101BD0C1B900B40AFB /* NOSRecruitmentCell.m in Sources */,
 				E632CDCF1BB9249E006B710D /* NOSCollege.m in Sources */,
 				E632CDD11BB9249E006B710D /* NOSRecruitment.m in Sources */,
 				E632CDD01BB9249E006B710D /* NOSRecruitment+CoreDataProperties.m in Sources */,
-				E68F3C311BBC176E007E3A9D /* NOSConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,10 +643,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E65114351BB24B4600BEDD63 /* NOSConfigTest.m in Sources */,
+				E6B843831BE2230900F0CCAF /* NOSEnvironmentTest.m in Sources */,
 				E68166C01BAFFC3B006E7CC7 /* NoodlesStu_iOSTests.m in Sources */,
-				E65943EB1BB2D516005C0A53 /* NOSRecruitmentModelViewTest.m in Sources */,
-				E65114241BB0FCFB00BEDD63 /* RecruitmentTest.m in Sources */,
+				E6B843851BE2231400F0CCAF /* RecruitmentTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

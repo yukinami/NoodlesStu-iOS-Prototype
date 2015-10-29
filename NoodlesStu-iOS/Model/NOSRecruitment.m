@@ -40,4 +40,21 @@
     [objectManager addResponseDescriptor:responseDescriptor];
 }
 
++ (RACSignal *)findAllSignal {
+    return [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
+        [[RKObjectManager sharedManager] getObjectsAtPath:@"/recruitments"
+                                               parameters:nil
+                                                  success:^void (RKObjectRequestOperation *operation,RKMappingResult *mappingResult) {
+                                                      [subscriber sendNext:RACTuplePack(operation, mappingResult)];
+                                                      [subscriber sendCompleted];
+                                                  }
+                                                  failure:^void (RKObjectRequestOperation *operation, NSError *error) {
+                                                      [subscriber sendError:error];
+                                                      [subscriber sendCompleted];
+                                                  }];
+        
+        return nil;
+    }];
+}
+
 @end

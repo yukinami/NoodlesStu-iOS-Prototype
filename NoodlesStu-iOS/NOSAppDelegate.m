@@ -9,7 +9,7 @@
 #import "NOSAppDelegate.h"
 
 #import <RestKit/RestKit.h>
-#import "NOSConfig.h"
+#import "NOSEnvironment.h"
 #import "NOSRecruitment.h"
 #import "NOSErrorMessage.h"
 
@@ -46,7 +46,7 @@
     
     
     // Configure the object manager
-    RKObjectManager *objectManager = [RKObjectManager managerWithBaseURL:[NSURL URLWithString:[[NOSConfig sharedConfig] APIBaseURL]]];
+    RKObjectManager *objectManager = [RKObjectManager managerWithBaseURL:[NSURL URLWithString:[[NOSEnvironment sharedConfig] APIBaseURL]]];
     objectManager.managedObjectStore = managedObjectStore;
     
     [RKObjectManager setSharedManager:objectManager];

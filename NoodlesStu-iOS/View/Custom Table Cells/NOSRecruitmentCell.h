@@ -7,13 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NOSReactiveView.h"
 
-@interface NOSRecruitmentCell : UITableViewCell
+@interface NOSRecruitmentCell : UITableViewCell <NOSReactiveView>
 
 @property (nonatomic, strong) UILabel *titleLabel;
 @property (nonatomic, strong) UILabel *dateLabel;
 @property (nonatomic, strong) UILabel *positionLabel;
 @property (nonatomic, strong) UILabel *collegeLabel;
 @property (nonatomic, strong) UILabel *viewTimesLabel;
+
 
 @end

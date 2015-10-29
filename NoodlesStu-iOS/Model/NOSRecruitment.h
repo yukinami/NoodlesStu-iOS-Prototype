@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
 #import <RestKit/RestKit.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
 #import "NOSRKEntityDelegate.h"
 
 @class NOSCollege;
@@ -16,6 +17,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NOSRecruitment : NSManagedObject <NOSRKEntityDelegate>
+
++ (RACSignal *) findAllSignal;
 
 @end
 

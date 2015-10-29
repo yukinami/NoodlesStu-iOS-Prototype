@@ -9,6 +9,7 @@
 #import "NOSRecruitmentCell.h"
 #import "NOSConstants.h"
 #import "UIColor+HEX.h"
+#import "NOSRecruitmentCellViewModel.h"
 
 @implementation NOSRecruitmentCell
 
@@ -22,7 +23,7 @@
     return self;
 }
 
-- (void)awakeFromNib {
+- (void) awakeFromNib {
     [self commonSetup];
 }
 
@@ -89,10 +90,17 @@
     
 }
 
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
+- (void)bindViewModel:(id)viewModel {
+    NOSRecruitmentCellViewModel *recruitmentCellViewModel = viewModel;
+    self.titleLabel.text = recruitmentCellViewModel.title;
+    self.dateLabel.text = recruitmentCellViewModel.dateText;
+    self.positionLabel.text = recruitmentCellViewModel.position;
+    self.collegeLabel.text = recruitmentCellViewModel.college;
+    self.viewTimesLabel.text= recruitmentCellViewModel.viewTimesText;
+}
 
-    // Configure the view for the selected state
+- (NSString *)reuseIdentifier {
+    return @"NOSRecruitmentCell";
 }
 
 @end

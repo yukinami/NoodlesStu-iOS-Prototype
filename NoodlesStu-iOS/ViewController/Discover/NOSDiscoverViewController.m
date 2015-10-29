@@ -10,7 +10,6 @@
 
 @implementation NOSDiscoverViewController
 
-
 - (void)viewDidLoad {
 
     _recruitmentViewController =
@@ -18,12 +17,12 @@
 
     _internshipViewController =
         [self.storyboard instantiateViewControllerWithIdentifier:@"InternshipListViewController"];
-    
+
     [self setViewControllerForIndex:0];
 }
 
 - (void)setViewControllerForIndex:(NSInteger)index {
-    [self setViewControllers:@[index == 0 ? self.recruitmentViewController : self.internshipViewController]
+    [self setViewControllers:@[ index == 0 ? self.recruitmentViewController : self.internshipViewController ]
                    direction:UIPageViewControllerNavigationDirectionForward
                     animated:NO
                   completion:nil];
@@ -34,6 +33,5 @@
 - (IBAction)segmentedControlChanged:(UISegmentedControl *)sender {
     [self setViewControllerForIndex:sender.selectedSegmentIndex];
 }
-
 
 @end

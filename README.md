@@ -55,9 +55,7 @@ xctool -scheme NoodlesStu-iOS -sdk iphoneos -workspace NoodlesStu-iOS.xcworkspac
 TODO
 ----
 1. UI Test
-2. refactor with MVVM (use ReactiveCocoa for Bi-directional Data Bindings)
-
-
+2. ViewModel Test
 
 
 
