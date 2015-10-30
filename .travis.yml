@@ -4,5 +4,3 @@ xcode_workspace: NoodlesStu-iOS.xcworkspace
 xcode_scheme: NoodlesStu-iOSTests
 xcode_sdk: iphonesimulator9.0
 
-script: 
-    - xctool -scheme NoodlesStu-iOS -sdk iphoneos9.0 -workspace NoodlesStu-iOS.xcworkspace  build
